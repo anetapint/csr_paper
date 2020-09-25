@@ -1,0 +1,506 @@
+Company,Name,Company Common Name,TRBC Economic Sector Name,TRBC Business Sector Name,TRBC Industry Group Name,TRBC Activity Name
+A.N,AGILENT TECH,Agilent Technologies Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+AAL.OQ,AMERICN ARLNS GP,American Airlines Group Inc,Industrials,Transportation,Passenger Transportation Services,Regional Airlines
+AAP.N,ADV AUTO PARTS,Advance Auto Parts Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Automotive Parts & Accessories Retailers
+AAPL.OQ,APPLE INC,Apple Inc,Technology,Technology Equipment,"Computers, Phones & Household Electronics",Phones & Smart Phones
+ABBV.N,ABBVIE,Abbvie Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+ABC.N,AMERISOURCEBERGN,Amerisourcebergen Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+ABMD.OQ,ABIOMED INC,ABIOMED Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+ABT.N,ABBOTT LABS,Abbott Laboratories,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+ACN.N,ACCENTURE PLC,Accenture PLC,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+ADBE.OQ,ADOBE INC,Adobe Inc,Technology,Software & IT Services,Software & IT Services,Application Software
+ADI.OQ,ANALOG DEVICES,Analog Devices Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+ADM.N,ARCHER-DANIELS,Archer-Daniels-Midland Co,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+ADP.OQ,AUTOMATIC DATA,Automatic Data Processing Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+ADSK.OQ,AUTODESK INC,Autodesk Inc,Technology,Software & IT Services,Software & IT Services,Application Software
+AEE.N,AMEREN CORP,Ameren Corp,Utilities,Utilities,Multiline Utilities,Multiline Utilities
+AEP.N,AMER ELEC PWR,American Electric Power Company Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+AES.N,THE AES CORP,AES Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+AFL.N,AFLAC INC,Aflac Inc,Financials,Insurance,Insurance,Life & Health Insurance (NEC)
+AIG.N,AMER INTL GROUP,American International Group Inc,Financials,Insurance,Insurance,Multiline Insurance & Brokers (NEC)
+AIV.N,APT INV MANAGE,Apartment Investment and Management Co,Financials,Real Estate,Residential & Commercial REITs,Residential REITs
+AIZ.N,ASSURANT,Assurant Inc,Financials,Insurance,Insurance,Multiline Insurance & Brokers (NEC)
+AJG.N,ARTHUR J GALLAGR,Arthur J Gallagher & Co,Financials,Insurance,Insurance,Insurance Brokers
+AKAM.OQ,AKAMAI TECH INC,Akamai Technologies Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+ALB.N,ALBEMARLE,Albemarle Corp,Basic Materials,Chemicals,Chemicals,Commodity Chemicals (NEC)
+ALGN.OQ,ALIGN TECH INC,Align Technology Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+ALK.N,ALASKA AIR GROUP,Alaska Air Group Inc,Industrials,Transportation,Passenger Transportation Services,Airlines (NEC)
+ALL.N,ALLSTATE CP,Allstate Corp,Financials,Insurance,Insurance,Property & Casualty Insurance (NEC)
+ALLE.N,ALLEGION PLC,Allegion PLC,Technology,Technology Equipment,Communications & Networking,Security & Surveillance
+ALXN.OQ,ALEXION PHARM,Alexion Pharmaceuticals Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Biopharmaceuticals
+AMAT.OQ,APPLIED MATL,Applied Materials Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductor Machinery Manufacturing
+AMCR.N,AMCOR PLC,Amcor PLC,Basic Materials,Applied Resources,Containers & Packaging,Non-Paper Containers & Packaging (NEC)
+AMD.OQ,ADV MICRO DEVICE,Advanced Micro Devices Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+AME.N,AMETEK,AMETEK Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electrical Components & Equipment (NEC)
+AMGN.OQ,AMGEN,Amgen Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+AMP.N,AMERIPRISE FINCL,Ameriprise Financial Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management & Fund Operators (NEC)
+AMT.N,AMER TOWER CP,American Tower Corp,Financials,Real Estate,Residential & Commercial REITs,Specialized REITs (NEC)
+AMZN.OQ,AMAZON COM,Amazon.com Inc,Consumer Cyclicals,Retailers,Diversified Retail,Internet & Mail Order Department Stores
+ANET.N,ARISTA NETWORKS,Arista Networks Inc,Technology,Technology Equipment,Communications & Networking,Communications & Networking (NEC)
+ANSS.OQ,ANSYS INC,ANSYS Inc,Technology,Software & IT Services,Software & IT Services,Application Software
+ANTM.N,ANTHEM INC,Anthem Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Managed Healthcare (NEC)
+AON.N,AON PLC,Aon PLC,Financials,Insurance,Insurance,Insurance Brokers
+AOS.N,A O SMITH,A. O. Smith Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships","Heating, Ventilation & Air Conditioning Systems"
+APA.OQ,APACHE CRPTN ORD,Apache Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+APD.N,AIR PRODS & CHEM,Air Products and Chemicals Inc,Basic Materials,Chemicals,Chemicals,Industrial Gases
+APH.N,AMPHENOL A,Amphenol Corp,Technology,Technology Equipment,Electronic Equipment & Parts,Electronic Components
+APTV.N,APTIV PLC,Aptiv PLC,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,"Auto, Truck & Motorcycle Parts (NEC)"
+ARE.N,ALEXANDRIA RE EQ,Alexandria Real Estate Equities Inc,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+ATO.N,ATMOS ENERGY,Atmos Energy Corp,Utilities,Utilities,Natural Gas Utilities,Natural Gas Utilities (NEC)
+ATVI.OQ,ACTIVISIN BLIZRD,Activision Blizzard Inc,Technology,Software & IT Services,Software & IT Services,Internet Gaming
+AVB.N,AVALONBAY COMM,Avalonbay Communities Inc,Financials,Real Estate,Residential & Commercial REITs,Residential REITs
+AVGO.OQ,BROADCOM INC,Broadcom Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+AVY.N,AVERY DENNISON,Avery Dennison Corp,Basic Materials,Applied Resources,Containers & Packaging,Non-Paper Containers & Packaging (NEC)
+AWK.N,AMERICN WTR WKS,American Water Works Company Inc,Utilities,Utilities,Water & Related Utilities,Water Supply & Irrigation Systems
+AXP.N,AMER EXPRESS CO,American Express Co,Financials,Banking & Investment Services,Banking Services,Consumer Credit Cards Services
+AZO.N,AUTOZONE INC,Autozone Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Automotive Parts & Accessories Retailers
+BA.N,BOEING CO,Boeing Co,Industrials,Industrial Goods,Aerospace & Defense,Commercial Aircraft Manufacturing
+BAC.N,BANK OF AMERICA,Bank of America Corp,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+BAX.N,BAXTER INTL INC,Baxter International Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+BBY.N,BEST BUY CO INC,Best Buy Co Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Computer & Electronics Retailers (NEC)
+BDX.N,BECTON DICKINSN,Becton Dickinson and Co,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+BEN.N,FRANKLIN RES,Franklin Resources Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management
+BFb.N,BROWN FORMAN B,Brown-Forman Corp,Consumer Non-Cyclicals,Food & Beverages,Beverages,Distillers & Wineries (NEC)
+BIIB.OQ,BIOGEN INC,Biogen Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Biopharmaceuticals
+BIO.N,BIO-RAD LABS A,Bio Rad Laboratories Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+BK.N,BANK NY MELLON,Bank of New York Mellon Corp,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management & Fund Operators (NEC)
+BKNG.OQ,BOOKING HOLDINGS,Booking Holdings Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Travel Agents
+BKR.N,BAKER HUGHE COMP,Baker Hughes Co,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil Related Services and Equipment (NEC)
+BLK.N,BLACKROCK INC,BlackRock Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management & Fund Operators (NEC)
+BLL.N,BALL CORP,Ball Corp,Basic Materials,Applied Resources,Containers & Packaging,Non-Paper Containers & Packaging (NEC)
+BMY.N,BRISTOL MYERS SQ,Bristol-Myers Squibb Co,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+BR.N,BROADRIDGE FINCL,Broadridge Financial Solutions Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Professional Information Services (NEC)
+BRKb.N,BERKSHRE CL B,Berkshire Hathaway Inc,Financials,Insurance,Insurance,Multiline Insurance & Brokers (NEC)
+BSX.N,BOSTON SCIEN CP,Boston Scientific Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+BWA.N,BORGWARNER,Borgwarner Inc,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,"Auto, Truck & Motorcycle Parts (NEC)"
+BXP.N,BOSTON PPTY,Boston Properties Inc,Financials,Real Estate,Residential & Commercial REITs,Office REITs
+C.N,CITIGROUP,Citigroup Inc,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+CAG.N,CONAGRA BRANDS,Conagra Brands Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+CAH.N,CARDINAL HLTH,Cardinal Health Inc,Consumer Non-Cyclicals,Food & Drug Retailing,Food & Drug Retailing,Drug Retailers (NEC)
+CARR.N,CARRR GLB CR ORD,Carrier Global Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships","Heating, Ventilation & Air Conditioning Systems"
+CAT.N,CATERPILLAR INC,Caterpillar Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Construction Machinery
+CB.N,CHUBB LIMITED,Chubb Ltd,Financials,Insurance,Insurance,Multiline Insurance & Brokers (NEC)
+CBOE.Z,CBOE GLOBAL MKT,Cboe Global Markets Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Financial & Commodity Market Operators & Service Providers (NEC)
+CBRE.N,CBRE GROUP INC,CBRE Group Inc,Financials,Real Estate,Real Estate Operations,Real Estate Services (NEC)
+CCI.N,CROWN CASTLE,Crown Castle International Corp,Financials,Real Estate,Residential & Commercial REITs,Specialized REITs (NEC)
+CCL.N,CARNIVAL CORP,Carnival Corp,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Cruise Lines
+CDNS.OQ,CADENCE DESIGN,Cadence Design Systems Inc,Technology,Software & IT Services,Software & IT Services,Software (NEC)
+CDW.OQ,CDW CORP,CDW Corp,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+CE.N,CELANESE,Celanese Corp,Basic Materials,Chemicals,Chemicals,Commodity Chemicals (NEC)
+CERN.OQ,CERNER CORP,Cerner Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+CF.N,CF INDUSTRIES,CF Industries Holdings Inc,Basic Materials,Chemicals,Chemicals,Fertilizers
+CFG.N,CITIZENS FINANL,Citizens Financial Group Inc,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+CHD.N,CHURCH DWIGHT,Church & Dwight Co Inc,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Household Products (NEC)
+CHRW.OQ,CH ROBINSON WW,CH Robinson Worldwide Inc,Industrials,Transportation,Freight & Logistics Services,Ground Freight & Logistics (NEC)
+CHTR.OQ,CHARTER COMM ORD,Charter Communications Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Cable Service Providers
+CI.N,CIGNA CORP,Cigna Corp,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Managed Healthcare (NEC)
+CINF.OQ,CINCINNATI FIN,Cincinnati Financial Corp,Financials,Insurance,Insurance,Property & Casualty Insurance (NEC)
+CL.N,COLGATE PALMOLIV,Colgate-Palmolive Co,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Personal Products (NEC)
+CLX.N,CLOROX CO,Clorox Co,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Household Products (NEC)
+CMA.N,COMERICA INC,Comerica Inc,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+CMCSA.OQ,COMCAST CORP A,Comcast Corp,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Broadcasting (NEC)
+CME.OQ,CME GROUP INC A,CME Group Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Securities & Commodity Exchanges
+CMG.N,CHIPOTLE MX GRL,Chipotle Mexican Grill Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Quick Service Restaurants
+CMI.N,CUMMINS INC,Cummins Inc,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,Engine & Powertrain Systems
+CMS.N,CMS ENERGY CORP,CMS Energy Corp,Utilities,Utilities,Multiline Utilities,Multiline Utilities
+CNC.N,CENTENE CORP,Centene Corp,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Managed Healthcare (NEC)
+CNP.N,CENTERPOINT,CenterPoint Energy Inc,Utilities,Utilities,Multiline Utilities,Multiline Utilities
+COF.N,CAP ONE FINAN,Capital One Financial Corp,Financials,Banking & Investment Services,Banking Services,Consumer Credit Cards Services
+COG.N,CABOT OIL GAS,Cabot Oil & Gas Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+COO.N,COOPER COS INC,Cooper Companies Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Glasses, Spectacles & Contact Lenses"
+COP.N,CONOCOPHILLIPS,ConocoPhillips,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+COST.OQ,COSTCO WHOLESAL,Costco Wholesale Corp,Consumer Cyclicals,Retailers,Diversified Retail,Discount Stores (NEC)
+COTY.N,COTY INC,Coty Inc,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Cosmetics & Perfumes
+CPB.N,CAMPBELL SOUP CO,Campbell Soup Co,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+CPRT.OQ,COPART INC,Copart Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Used Car Dealers
+CRM.N,SALESFORCE COM,Salesforce.Com Inc,Technology,Software & IT Services,Software & IT Services,Cloud Computing Services
+CSCO.OQ,CISCO SYSTEMS,Cisco Systems Inc,Technology,Technology Equipment,Communications & Networking,Communications & Networking (NEC)
+CSX.OQ,CSX CORPORATION,CSX Corp,Industrials,Transportation,Freight & Logistics Services,Railway Freight Operators
+CTAS.OQ,CINTAS CORP,Cintas Corp,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Business Support Services (NEC)
+CTL.N,CENTURYLINK INC,Centurylink Inc,Telecommunications Services,Telecommunications Services,Telecommunications Services,Integrated Telecommunications Services (NEC)
+CTSH.OQ,COGNIZANT TECH,Cognizant Technology Solutions Corp,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+CTVA.N,CORTEVA INC,Corteva Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Fishing & Farming (NEC)
+CTXS.OQ,CITRIX SYSTEMS,Citrix Systems Inc,Technology,Software & IT Services,Software & IT Services,Software (NEC)
+CVS.N,CVS HEALTH CRPTN,CVS Health Corp,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Healthcare Facilities & Services (NEC)
+CVX.N,CHEVRON,Chevron Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Petroleum Refining
+CXO.N,CONCHO RESOURCES,Concho Resources Inc,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+D.N,DOMINON ENRG INC,Dominion Energy Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+DAL.N,DELTA AIR LIN,Delta Air Lines Inc,Industrials,Transportation,Passenger Transportation Services,Airlines (NEC)
+DD.N,DUPONT DE NMOURS,Dupont De Nemours Inc,Basic Materials,Chemicals,Chemicals,Diversified Chemicals
+DE.N,DEERE & CO,Deere & Co,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Agricultural Machinery
+DFS.N,DISCOVER FINANC,Discover Financial Services,Financials,Banking & Investment Services,Banking Services,Consumer Lending (NEC)
+DG.N,DOLLAR GNRL CORP,Dollar General Corp,Consumer Cyclicals,Retailers,Diversified Retail,Discount Stores (NEC)
+DGX.N,QUEST DIAG,Quest Diagnostics Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Healthcare Facilities & Services (NEC)
+DHI.N,D.R. HORTON INC,D.R. Horton Inc,Consumer Cyclicals,Cyclical Consumer Products,Homebuilding & Construction Supplies,Homebuilding (NEC)
+DHR.N,DANAHER,Danaher Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+DIS.N,WALT DISNEY CO,Walt Disney Co,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Broadcasting (NEC)
+DISCA.OQ,DISCOVERY INC A,Discovery Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Television Broadcasting
+DISCK.OQ,DISCOVERY INC C,Discovery Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Television Broadcasting
+DISH.OQ,DISH NETWORK A,DISH Network Corp,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Cable Service Providers
+DLR.N,DIGITAL REALTY,Digital Realty Trust Inc,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+DLTR.OQ,DOLLAR TREE INC,Dollar Tree Inc,Consumer Cyclicals,Retailers,Diversified Retail,Discount Stores without Grocery
+DOV.N,DOVER CORP,Dover Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+DOW.N,DOW INC,Dow Inc,Basic Materials,Chemicals,Chemicals,Plastics
+DPZ.N,DOMINOS PIZZA,Domino's Pizza Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Quick Service Restaurants
+DRE.N,DUKE REALTY,Duke Realty Corp,Financials,Real Estate,Residential & Commercial REITs,Industrial REITs
+DRI.N,DARDEN REST,Darden Restaurants Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Restaurants & Bars (NEC)
+DTE.N,DTE ENERGY,DTE Energy Co,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+DUK.N,DUKE ENERGY,Duke Energy Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+DVA.N,DAVITA INC,DaVita Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Healthcare Facilities & Services (NEC)
+DVN.N,DEVON ENERG,Devon Energy Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+DXC.N,DXC TECHNLGY COM,DXC Technology Co,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+DXCM.OQ,DEXCOM,DexCom Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+EA.OQ,ELECTRONIC ART,Electronic Arts Inc,Technology,Software & IT Services,Software & IT Services,Application Software
+EBAY.OQ,EBAY INC,eBay Inc,Technology,Software & IT Services,Software & IT Services,E-commerce & Auction Services
+ECL.N,ECOLAB INC,Ecolab Inc,Basic Materials,Chemicals,Chemicals,Specialty Chemicals (NEC)
+ED.N,CONSOL EDISON,Consolidated Edison Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+EFX.N,EQUIFAX INC,Equifax Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Professional Information Services (NEC)
+EIX.N,EDISON INTL,Edison International,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+EL.N,ESTEE LAUDER,Estee Lauder Companies Inc,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Personal Products (NEC)
+EMN.N,EASTMAN CHEM,Eastman Chemical Co,Basic Materials,Chemicals,Chemicals,Commodity Chemicals (NEC)
+EMR.N,EMERSON ELECTRIC,Emerson Electric Co,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electrical Components & Equipment (NEC)
+EOG.N,EOG RESOURCES,EOG Resources Inc,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+EQIX.OQ,EQUINIX INC,Equinix Inc,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+EQR.N,EQ RESIDENT,Equity Residential,Financials,Real Estate,Residential & Commercial REITs,Residential REITs
+ES.N,EVERSOURCE ENRGY,Eversource Energy,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+ESS.N,ESSEX PROP TR,Essex Property Trust Inc,Financials,Real Estate,Residential & Commercial REITs,Residential REITs
+ETFC.OQ,E*TRADE FINCL CP,E*Trade Financial Corp,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Banking & Brokerage Services (NEC)
+ETN.N,EATON CORP,Eaton Corporation PLC,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electrical Components & Equipment (NEC)
+ETR.N,ENTERGY CP,Entergy Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+EVRG.N,EVERGY INC,Evergy Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+EW.N,EDWARDS LIFE,Edwards Lifesciences Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+EXC.OQ,EXELON CORPRTN,Exelon Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+EXPD.OQ,EXPEDITORS,Expeditors International of Washington Inc,Industrials,Transportation,Freight & Logistics Services,"Courier, Postal, Air Freight & Land-based Logistics (NEC)"
+EXPE.OQ,EXPEDI GROUP INC,Expedia Group Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Travel Agents
+EXR.N,EXTRA SPACE STRG,Extra Space Storage Inc,Financials,Real Estate,Residential & Commercial REITs,Self-Storage REITs
+F.N,FORD MOTOR CO,Ford Motor Co,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,Auto & Truck Manufacturers (NEC)
+FANG.OQ,DIAMOND BAK ENGY,Diamondback Energy Inc,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+FAST.OQ,FASTENAL CO,Fastenal Co,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment Wholesale
+FB.OQ,FACEBOOK INC A,Facebook Inc,Technology,Software & IT Services,Software & IT Services,Social Media & Networking
+FBHS.N,FORTUNE BR HO SC,Fortune Brands Home & Security Inc,Consumer Cyclicals,Cyclical Consumer Products,Homebuilding & Construction Supplies,Construction Supplies & Fixtures (NEC)
+FCX.N,FREEPORTMCMORAN,Freeport-McMoRan Inc,Basic Materials,Mineral Resources,Metals & Mining,Specialty Mining & Metals (NEC)
+FDX.N,FEDEX CORP,FedEx Corp,Industrials,Transportation,Freight & Logistics Services,"Courier, Postal, Air Freight & Land-based Logistics (NEC)"
+FE.N,FIRSTENERGY,FirstEnergy Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+FFIV.OQ,F5 NETWORKS INC,F5 Networks Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+FIS.N,FIDELITY NATL IN,Fidelity National Information Services Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Financial Technology & Infrastructure
+FISV.OQ,FISERV INC,Fiserv Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Transaction & Payment Services
+FITB.OQ,FIFTH THR BNCP,Fifth Third Bancorp,Financials,Banking & Investment Services,Banking Services,Corporate Banks
+FLIR.OQ,FLIR SYSTEMS,FLIR Systems Inc,Technology,Technology Equipment,Communications & Networking,Security & Surveillance
+FLS.N,FLOWSERVE CP,Flowserve Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Pump & Pumping Equipment
+FLT.N,FLEETCOR TECHNO,Fleetcor Technologies Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Transaction & Payment Services
+FMC.N,FMC CORP,FMC Corp,Basic Materials,Chemicals,Chemicals,Diversified Chemicals
+FOX.OQ,FOX CORP B,Fox Corp,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Television Broadcasting
+FOXA.OQ,FOX CORP A,Fox Corp,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Television Broadcasting
+FRC.N,FRST REPBLIC BNK,First Republic Bank,Financials,Banking & Investment Services,Banking Services,Corporate Banks
+FRT.N,FED RLTY INV TR,Federal Realty Investment Trust,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+FTI.N,TECHNIPFMC PLC,TechnipFMC PLC,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil Related Services and Equipment (NEC)
+FTNT.OQ,FORTINET,Fortinet Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+FTV.N,FORTIVE CORPORTN,Fortive Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+GD.N,GENERAL DYNAMICS,General Dynamics Corp,Industrials,Industrial Goods,Aerospace & Defense,Aerospace & Defense (NEC)
+GE.N,GENERAL ELEC CO,General Electric Co,Industrials,Industrial Conglomerates,Industrial Conglomerates,Industrial Conglomerates
+GILD.OQ,GILEAD SCI,Gilead Sciences Inc,Healthcare,Pharmaceuticals & Medical Research,Biotechnology & Medical Research,Bio Therapeutic Drugs
+GIS.N,GENERAL MILLS,General Mills Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+GL.N,GLOBE LIFE INC,Globe Life Inc,Financials,Insurance,Insurance,Life Insurance
+GLW.N,CORNING INC,Corning Inc,Technology,Technology Equipment,Electronic Equipment & Parts,Display Screens
+GM.N,GENERAL MOTORS,General Motors Co,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,Auto & Truck Manufacturers (NEC)
+GOOG.OQ,ALPHABET INC C,Alphabet Inc,Technology,Software & IT Services,Software & IT Services,Search Engines
+GOOGL.OQ,ALPHABET INC A,Alphabet Inc,Technology,Software & IT Services,Software & IT Services,Search Engines
+GPC.N,GENUINE PARTS CO,Genuine Parts Co,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,Auto & Truck Parts Wholesale
+GPN.N,GLOBL PAYMNTS,Global Payments Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Transaction & Payment Services
+GPS.N,GAP INC,Gap Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Apparel & Accessories Retailers (NEC)
+GRMN.OQ,GARMIN LTD,Garmin Ltd,Technology,Technology Equipment,Communications & Networking,Security & Surveillance
+GS.N,GOLDM SACHS GRP,Goldman Sachs Group Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Banking & Brokerage Services (NEC)
+GWW.N,W W GRAINGER INC,W W Grainger Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+HAL.N,HALLIBURTON CO,Halliburton Co,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil Related Services and Equipment (NEC)
+HAS.OQ,HASBRO INC,Hasbro Inc,Consumer Cyclicals,Cyclical Consumer Products,Leisure Products,Toys & Children's Products (NEC)
+HBAN.OQ,HUNTGTN BKSHR,Huntington Bancshares Inc,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+HBI.N,HANESBRANDS,HanesBrands Inc,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Apparel & Accessories (NEC)
+HCA.N,HCA HEALTHCARE,HCA Healthcare Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Healthcare Facilities & Services (NEC)
+HD.N,HOME DEPOT INC,Home Depot Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Home Improvement Products & Services Retailers (NEC)
+HES.N,HESS CORP,Hess Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Refining and Marketing (NEC)
+HFC.N,HOLLYFRONTR CORP,HollyFrontier Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Petroleum Refining
+HIG.N,HARTFORD FINL,Hartford Financial Services Group Inc,Financials,Insurance,Insurance,Multiline Insurance & Brokers (NEC)
+HII.N,HUNTINGTN INGALS,Huntington Ingalls Industries Inc,Industrials,Industrial Goods,Aerospace & Defense,Aerospace & Defense (NEC)
+HLT.N,HILTON WLDWD HLD,Hilton Worldwide Holdings Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,"Hotels, Motels & Cruise Lines (NEC)"
+HOLX.OQ,HOLOGIC INC,Hologic Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+HON.N,HONEYWELL INTL,Honeywell International Inc,Industrials,Industrial Conglomerates,Industrial Conglomerates,Industrial Conglomerates
+HPE.N,HWLTT PCKRD ENTP,Hewlett Packard Enterprise Co,Technology,Technology Equipment,"Computers, Phones & Household Electronics",Computer Hardware (NEC)
+HPQ.N,HP INC,HP Inc,Technology,Technology Equipment,"Computers, Phones & Household Electronics",Computer Hardware (NEC)
+HRB.N,H & R BLOCK INC,H & R Block Inc,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Accounting & Tax Preparation
+HRL.N,HORMEL FOODS,Hormel Foods Corp,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Meat Processing
+HSIC.OQ,HENRY SCHEIN,Henry Schein Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Medical Equipment Wholesale
+HST.N,HOST HOTL&RES,Host Hotels & Resorts Inc,Financials,Real Estate,Residential & Commercial REITs,Hospitality REITs
+HSY.N,HERSHEY CO,Hershey Co,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+HUM.N,HUMANA INC,Humana Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Managed Healthcare (NEC)
+HWM.N,HOWMET ARSPC ORD,Howmet Aerospace Inc,Basic Materials,Mineral Resources,Metals & Mining,Aluminum Rolling
+IBM.N,INTL BUS MACHINE,International Business Machines Corp,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+ICE.N,INTRCTNTL EXCHNG,Intercontinental Exchange Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Financial & Commodity Market Operators & Service Providers (NEC)
+IDXX.OQ,IDEXX LABS,IDEXX Laboratories Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Veterinary Medical Equipment & Supplies
+IEX.N,IDEX,IDEX Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Pump & Pumping Equipment
+IFF.N,INTL FLAV & FRAG,International Flavors & Fragrances Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Ingredients
+ILMN.OQ,ILLUMINA INC,Illumina Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+INCY.OQ,INCYTE CORP,Incyte Corp,Healthcare,Pharmaceuticals & Medical Research,Biotechnology & Medical Research,Biotechnology & Medical Research (NEC)
+INFO.N,IHS MARKIT LTD,IHS Markit Ltd,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Financial Information Providers
+INTC.OQ,INTEL CORP,Intel Corp,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+INTU.OQ,INTUIT INC,Intuit Inc,Technology,Software & IT Services,Software & IT Services,Enterprise Software
+IP.N,INTNL PAPER CO,International Paper Co,Basic Materials,Applied Resources,Containers & Packaging,Paper Packaging (NEC)
+IPG.N,INTERPBLIC GRP,Interpublic Group of Companies Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Advertising & Marketing (NEC)
+IPGP.OQ,IPG PHOTONICS,IPG Photonics Corp,Technology,Technology Equipment,Electronic Equipment & Parts,Electronic Components
+IQV.N,IQVIA HOLDINGS,IQVIA Holdings Inc,Healthcare,Pharmaceuticals & Medical Research,Biotechnology & Medical Research,Biotechnology & Medical Research (NEC)
+IR.N,INGERSOL RND ORD,Ingersoll Rand Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+IRM.N,IRON MOUNTAIN,Iron Mountain Inc,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+ISRG.OQ,INTUITIVE SURG,Intuitive Surgical Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+IT.N,GARTNER,Gartner Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+ITW.N,ILLINOIS TOOL WK,Illinois Tool Works Inc,Industrials,Industrial Conglomerates,Industrial Conglomerates,Industrial Conglomerates
+IVZ.N,INVESCO LTD,Invesco Ltd,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management
+J.N,JACOB ENGNRG ORD,Jacobs Engineering Group Inc,Industrials,Industrial & Commercial Services,Construction & Engineering,Construction & Engineering (NEC)
+JBHT.OQ,J.B. HUNT TRAN,J B Hunt Transport Services Inc,Industrials,Transportation,Freight & Logistics Services,Freight Trucking
+JCI.N,JOHNSN CNTRL INT,Johnson Controls International PLC,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships","Heating, Ventilation & Air Conditioning Systems"
+JKHY.OQ,JACK HENRY ASO,Jack Henry & Associates Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+JNJ.N,JOHNSON JOHNSON,Johnson & Johnson,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+JNPR.N,JUNIPER NETWRKS,Juniper Networks Inc,Technology,Technology Equipment,Communications & Networking,Network Equipment
+JPM.N,JPMORGAN CHASE,JPMorgan Chase & Co,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+K.N,KELLOGG CO,Kellogg Co,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+KEY.N,KEYCORP NEW,KeyCorp,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+KEYS.N,KEYSIGHT TCH INC,Keysight Technologies Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electrical Measuring & Testing Instruments
+KHC.OQ,THE KRFT HNZ CO,Kraft Heinz Co,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+KIM.N,KIMCO REALTY CP,Kimco Realty Corp,Financials,Real Estate,Residential & Commercial REITs,Retail REITs
+KLAC.OQ,KLA CORP,KLA Corp,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductor Testing Equipment & Service
+KMB.N,KIMBERLY-CLARK,Kimberly-Clark Corp,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Sanitary Products
+KMI.N,KINDER MORGAN,Kinder Morgan Inc,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil & Gas Transportation Services (NEC)
+KMX.N,CARMAX INC,Carmax Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Used Car Dealers
+KO.N,COCA-COLA CO,Coca-Cola Co,Consumer Non-Cyclicals,Food & Beverages,Beverages,Non-Alcoholic Beverages (NEC)
+KR.N,KROGER CO,Kroger Co,Consumer Non-Cyclicals,Food & Drug Retailing,Food & Drug Retailing,Food Retail & Distribution (NEC)
+KSS.N,KOHL'S CRP,Kohls Corp,Consumer Cyclicals,Retailers,Diversified Retail,General Department Stores
+KSU.N,KANSAS CITY SO,Kansas City Southern,Industrials,Transportation,Freight & Logistics Services,Ground Freight & Logistics (NEC)
+L.N,LOEWS CORP,Loews Corp,Financials,Insurance,Insurance,Property & Casualty Insurance (NEC)
+LB.N,L BRANDS INC,L Brands Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Apparel & Accessories Retailers (NEC)
+LDOS.N,LEIDOS HLDGS INC,Leidos Holdings Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+LEG.N,LEGGETT& PLATT,Leggett & Platt Inc,Consumer Cyclicals,Cyclical Consumer Products,Household Goods,Home Furnishings (NEC)
+LEN.N,LENNAR CP CL A,Lennar Corp,Consumer Cyclicals,Cyclical Consumer Products,Homebuilding & Construction Supplies,Residential Builders - Single Homes
+LH.N,LAB CRP OF AMER,Laboratory Corporation of America Holdings,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Healthcare Facilities & Services (NEC)
+LHX.N,L3HARRIS TCH INC,L3harris Technologies Inc,Industrials,Industrial Goods,Aerospace & Defense,Aerospace & Defense (NEC)
+LIN.N,LINDE PLC,Linde PLC,Basic Materials,Chemicals,Chemicals,Industrial Gases
+LKQ.OQ,LKQ CORP,LKQ Corp,Consumer Cyclicals,Automobiles & Auto Parts,Automobiles & Auto Parts,Auto & Truck Parts Wholesale
+LLY.N,ELI LILLY,Eli Lilly and Co,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+LMT.N,LOCKHEED MARTIN,Lockheed Martin Corp,Industrials,Industrial Goods,Aerospace & Defense,Aerospace & Defense (NEC)
+LNC.N,LINCOLN NATL,Lincoln National Corp,Financials,Insurance,Insurance,Life & Health Insurance (NEC)
+LNT.OQ,ALLIANT ENERGY,Alliant Energy Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+LOW.N,LOWES COMPANIES,Lowe's Companies Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Home Improvement Products & Services Retailers (NEC)
+LRCX.OQ,LAM RESEARCH,Lam Research Corp,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductor Equipment & Testing (NEC)
+LUV.N,SW AIRLINES,Southwest Airlines Co,Industrials,Transportation,Passenger Transportation Services,Regional Airlines
+LVS.N,LAS VEGAS SANDS,Las Vegas Sands Corp,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Casinos
+LW.N,LAMB WESTON HLDS,Lamb Weston Holdings Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+LYB.N,LYONDELLBASEL A,LyondellBasell Industries NV,Basic Materials,Chemicals,Chemicals,Commodity Chemicals (NEC)
+LYV.N,LIVE NATION ENTN,Live Nation Entertainment Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Entertainment Production Equipment & Services
+MA.N,MASTERCARD I ORD,Mastercard Inc,Technology,Software & IT Services,Software & IT Services,Internet Security & Transactions Services
+MAA.N,MID AM APT COMM,Mid-America Apartment Communities Inc,Financials,Real Estate,Residential & Commercial REITs,Residential REITs
+MAR.OQ,MARRIOTT INTERNL,Marriott International Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,"Hotels, Motels & Cruise Lines (NEC)"
+MAS.N,MASCO CORP,Masco Corp,Consumer Cyclicals,Cyclical Consumer Products,Homebuilding & Construction Supplies,Construction Supplies & Fixtures (NEC)
+MCD.N,MCDONALD'S CORP,Mcdonald's Corp,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Quick Service Restaurants
+MCHP.OQ,MICROCHIP TECH,Microchip Technology Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+MCK.N,MCKESSON CRP,Mckesson Corp,Consumer Non-Cyclicals,Food & Drug Retailing,Food & Drug Retailing,Drug Retailers (NEC)
+MCO.N,MOODY'S,Moody's Corp,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Rating Agencies
+MDLZ.OQ,MONDELEZ INT CLA,Mondelez International Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+MDT.N,MEDTRONIC PLC,Medtronic PLC,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+MET.N,METLIFE INC,MetLife Inc,Financials,Insurance,Insurance,Life & Health Insurance (NEC)
+MGM.N,MGM RESORTS INT,MGM Resorts International,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Casinos
+MHK.N,MOHAWK INDS,Mohawk Industries Inc,Consumer Cyclicals,Cyclical Consumer Products,Household Goods,Carpets & Curtains
+MKC.N,MCCORMICK & CO,McCormick & Company Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+MKTX.OQ,MARKETAXESS,Marketaxess Holdings Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Financial & Commodity Market Operators & Service Providers (NEC)
+MLM.N,M MARIETTA,Martin Marietta Materials Inc,Basic Materials,Mineral Resources,Construction Materials,Construction Materials (NEC)
+MMC.N,MARSH & MCLENNAN,Marsh & McLennan Companies Inc,Financials,Insurance,Insurance,Multiline Insurance & Brokers (NEC)
+MMM.N,3M COMPANY,3M Co,Industrials,Industrial Conglomerates,Industrial Conglomerates,Industrial Conglomerates
+MNST.OQ,MONSTER BEV CORP,Monster Beverage Corp,Consumer Non-Cyclicals,Food & Beverages,Beverages,Energy Drinks
+MO.N,ALTRIA GROUP,Altria Group Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Cigars & Cigarette Manufacturing
+MOS.N,MOSAIC COMPANY,Mosaic Co,Basic Materials,Chemicals,Chemicals,Fertilizers
+MPC.N,MARTHN PETRO,Marathon Petroleum Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Refining and Marketing (NEC)
+MRK.N,MERCK & CO,Merck & Co Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+MRO.N,MARATHON OIL,Marathon Oil Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+MS.N,MORGAN STANLEY,Morgan Stanley,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Banking & Brokerage Services (NEC)
+MSCI.N,MSCI,MSCI Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Compliance & Investor Communication
+MSFT.OQ,MICROSOFT CP,Microsoft Corp,Technology,Software & IT Services,Software & IT Services,Software (NEC)
+MSI.N,MOTOROLA SOL,Motorola Solutions Inc,Technology,Technology Equipment,Communications & Networking,Communications & Networking (NEC)
+MTB.N,M&T BANK CRP,M&T Bank Corp,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+MTD.N,METTLER-TOLEDO,Mettler-Toledo International Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Testing & Measuring Equipment
+MU.OQ,MICRON TECH,Micron Technology Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+MXIM.OQ,MAXIM INTEGRATED,Maxim Integrated Products Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+MYL.OQ,MYLAN NV,Mylan NV,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+NBL.OQ,NOBLE ENERGY INC,Noble Energy Inc,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+NCLH.N,NORWGN CRUS LINE,Norwegian Cruise Line Holdings Ltd,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Cruise Lines
+NDAQ.OQ,NASDAQ INC,Nasdaq Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Financial & Commodity Market Operators & Service Providers (NEC)
+NEE.N,NEXTERA ENERGY,Nextera Energy Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+NEM.N,NEWMONT CORP ORD,Newmont Corporation,Basic Materials,Mineral Resources,Metals & Mining,Gold Mining
+NFLX.OQ,NETFLIX INC,Netflix Inc,Technology,Software & IT Services,Software & IT Services,Online Services (NEC)
+NI.N,NISOURCE INC,NiSource Inc,Utilities,Utilities,Multiline Utilities,Multiline Utilities
+NKE.N,NIKE INC CL B,Nike Inc,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Sports & Outdoor Footwear
+NLOK.OQ,NORTONLIFELOCK,NortonLifeLock Inc,Technology,Software & IT Services,Software & IT Services,Application Software
+NLSN.N,NIELSEN HOLDINGS,Nielsen Holdings PLC,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Market Research
+NOC.N,NORTHROP GRUMMAN,Northrop Grumman Corp,Industrials,Industrial Goods,Aerospace & Defense,Aerospace & Defense (NEC)
+NOV.N,NTL OILWELL VARC,National Oilwell Varco Inc,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil Related Services and Equipment (NEC)
+NOW.N,SERVICENOW INC,ServiceNow Inc,Technology,Software & IT Services,Software & IT Services,Enterprise Software
+NRG.N,NRG ENERGY,NRG Energy Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+NSC.N,NORFOLK SOUTHERN,Norfolk Southern Corp,Industrials,Transportation,Freight & Logistics Services,Ground Freight & Logistics (NEC)
+NTAP.OQ,NETAPP INC,NetApp Inc,Technology,Technology Equipment,"Computers, Phones & Household Electronics",Storage Devices
+NTRS.OQ,NORTHERN TRUST,Northern Trust Corp,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management & Fund Operators (NEC)
+NUE.N,NUCOR,Nucor Corp,Basic Materials,Mineral Resources,Metals & Mining,Iron & Steel (NEC)
+NVDA.OQ,NVIDIA CORP,NVIDIA Corp,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+NVR.N,NVR INC,NVR Inc,Consumer Cyclicals,Cyclical Consumer Products,Homebuilding & Construction Supplies,Residential Builders - Single Homes
+NWL.OQ,NEWELL BRAND INC,Newell Brands Inc,Consumer Cyclicals,Cyclical Consumer Products,Household Goods,"Appliances, Tools & Housewares (NEC)"
+NWS.OQ,NEWS CORP CL B,News Corp,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Newspaper Publishing
+NWSA.OQ,NEWS CORP CL A,News Corp,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Newspaper Publishing
+O.N,REALTY INCM CORP,Realty Income Corp,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+ODFL.OQ,OLD DOMINION,Old Dominion Freight Line Inc,Industrials,Transportation,Freight & Logistics Services,Freight Trucking
+OKE.N,ONEOK INC,ONEOK Inc,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil & Gas Transportation Services (NEC)
+OMC.N,OMNICOM GP INC,Omnicom Group Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Advertising & Marketing (NEC)
+ORCL.N,ORACLE CORP,Oracle Corp,Technology,Software & IT Services,Software & IT Services,Enterprise Software
+ORLY.OQ,O REILLY AUTO,O'Reilly Automotive Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Automotive Parts & Accessories Retailers
+OTIS.N,OTIS WORLDWD ORD,Otis Worldwide Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Elevator & Conveying Equipment
+OXY.N,OCCIDENTAL PETE,Occidental Petroleum Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+PAYC.N,PAYCOM SOFTWARE,Paycom Software Inc,Technology,Software & IT Services,Software & IT Services,Enterprise Software
+PAYX.OQ,PAYCHEX INC,Paychex Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Outsourcing & Staffing Services
+PBCT.OQ,PEOPLE UNTD FIN,People's United Financial Inc,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+PCAR.OQ,PACCAR INC,Paccar Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Heavy Machinery & Vehicles (NEC)
+PEAK.N,HEALTHPK PROPRTS,Healthpeak Properties Inc,Financials,Real Estate,Residential & Commercial REITs,Healthcare REITs
+PEG.N,PUBL SVC ENTER,Public Service Enterprise Group Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+PEP.OQ,PEPSICO INC,PepsiCo Inc,Consumer Non-Cyclicals,Food & Beverages,Beverages,Carbonated Soft Drinks
+PFE.N,PFIZER INC,Pfizer Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+PFG.OQ,PRINCIPAL FNANCL,Principal Financial Group Inc,Financials,Insurance,Insurance,Life & Health Insurance (NEC)
+PG.N,PROCTER & GAMBLE,Procter & Gamble Co,Consumer Non-Cyclicals,Personal & Household Products & Services,Personal & Household Products & Services,Personal Products (NEC)
+PGR.N,THE PROGRESSIVE,Progressive Corp,Financials,Insurance,Insurance,Insurance - Automobile
+PH.N,PARKER-HANNIFIN,Parker-Hannifin Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+PHM.N,PULTEGROUP INC,Pultegroup Inc,Consumer Cyclicals,Cyclical Consumer Products,Homebuilding & Construction Supplies,Homebuilding (NEC)
+PKG.N,PACKAGING AMER,Packaging Corp of America,Basic Materials,Applied Resources,Containers & Packaging,Paper Packaging (NEC)
+PKI.N,PERKINELMER,PerkinElmer Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+PLD.N,PROLOGIS,Prologis Inc,Financials,Real Estate,Residential & Commercial REITs,Industrial REITs
+PM.N,PHILIP MORRIS,Philip Morris International Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Tobacco (NEC)
+PNC.N,PNC FINL SVC,PNC Financial Services Group Inc,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+PNR.N,PENTAIR PLC,Pentair PLC,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+PNW.N,PINNACL WEST CAP,Pinnacle West Capital Corp,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+PPG.N,PPG IND,PPG Industries Inc,Basic Materials,Chemicals,Chemicals,Paints & Coatings
+PPL.N,PPL CORP,PPL Corp,Utilities,Utilities,Multiline Utilities,Multiline Utilities
+PRGO.N,PERRIGO CMPN PLC,Perrigo Company PLC,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Pharmaceuticals (NEC)
+PRU.N,PRUDENTIAL FINL,Prudential Financial Inc,Financials,Insurance,Insurance,Life & Health Insurance (NEC)
+PSA.N,PUBLIC STORG ORD,Public Storage,Financials,Real Estate,Residential & Commercial REITs,Self-Storage REITs
+PSX.N,PHILLIPS 66,Phillips 66,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Refining and Marketing (NEC)
+PVH.N,PVH CORP,PVH Corp,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Apparel & Accessories (NEC)
+PWR.N,QUANTA SERVICES,Quanta Services Inc,Industrials,Industrial & Commercial Services,Construction & Engineering,Construction & Engineering (NEC)
+PXD.N,PIONEER NAT,Pioneer Natural Resources Co,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Exploration and Production (NEC)
+PYPL.OQ,PAYPAL HOLDI,PayPal Holdings Inc,Technology,Software & IT Services,Software & IT Services,Internet Security & Transactions Services
+QCOM.OQ,QUALCOMM INC,Qualcomm Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+QRVO.OQ,QORVO INC ORD,Qorvo Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductor Equipment & Testing (NEC)
+RCL.N,RYL CRBN GRP ORD,Royal Caribbean Cruises Ltd,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Cruise Lines
+RE.N,EVEREST RE GP,Everest Re Group Ltd,Financials,Insurance,Insurance,Property & Casualty Reinsurance
+REG.OQ,REGENCY CENTER,Regency Centers Corp,Financials,Real Estate,Residential & Commercial REITs,Retail REITs
+REGN.OQ,REGENERON PHAR,Regeneron Pharmaceuticals Inc,Healthcare,Pharmaceuticals & Medical Research,Biotechnology & Medical Research,Bio Therapeutic Drugs
+RF.N,REGIONS FINANCL,Regions Financial Corp,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+RHI.N,ROB HALF INTL,Robert Half International Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Employment Services (NEC)
+RJF.N,RAYMOND JAMES,Raymond James Financial Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Banking & Brokerage Services (NEC)
+RL.N,RALPH LAUREN COR,Ralph Lauren Corp,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Apparel & Accessories (NEC)
+RMD.N,RESMED INC,Resmed Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+ROK.N,ROCKWELL AUTOMAT,Rockwell Automation Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electrical Components & Equipment (NEC)
+ROL.N,ROLLINS,Rollins Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Pest Control Services
+ROP.N,ROPER TECHNOLOGS,Roper Technologies Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+ROST.OQ,ROSS STORES,Ross Stores Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Apparel & Accessories Retailers (NEC)
+RSG.N,REPUBLIC SVCS,Republic Services Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Environmental Services & Equipment (NEC)
+RTX.N,RYTHN TCHNLG ORD,Raytheon Technologies Corp,Industrials,Industrial Goods,Aerospace & Defense,Aerospace & Defense (NEC)
+SBAC.OQ,SBA COMMS CORP,SBA Communications Corp,Financials,Real Estate,Residential & Commercial REITs,Specialized REITs (NEC)
+SBUX.OQ,STARBUCKS CORP,Starbucks Corp,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Restaurants & Bars (NEC)
+SCHW.N,CHRLS SCHWB CRP,Charles Schwab Corp,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Banking & Brokerage Services (NEC)
+SEE.N,SEALED AIR CP,Sealed Air Corp,Basic Materials,Applied Resources,Containers & Packaging,Non-Paper Containers & Packaging (NEC)
+SHW.N,SHERWIN-WILLIAMS,Sherwin-Williams Co,Basic Materials,Chemicals,Chemicals,Paints & Coatings
+SIVB.OQ,SVB FINANCIAL,SVB Financial Group,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+SJM.N,J M SMUCKER,J M Smucker Co,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Food Processing (NEC)
+SLB.N,SCHLUMBERGER LTD,Schlumberger NV,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil Related Services and Equipment (NEC)
+SLG.N,SL GREEN RLTY,SL Green Realty Corp,Financials,Real Estate,Residential & Commercial REITs,Office REITs
+SNA.N,SNAP-ON INC,Snap-On Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+SNPS.OQ,SYNOPSYS,Synopsys Inc,Technology,Software & IT Services,Software & IT Services,Software (NEC)
+SO.N,SOUTHERN,Southern Co,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+SPG.N,SIMON PROP GRP,Simon Property Group Inc,Financials,Real Estate,Residential & Commercial REITs,Retail REITs
+SPGI.N,S&P GLOBAL INC,S&P Global Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Professional Information Services (NEC)
+SRE.N,SEMPRA ENERGY,Sempra Energy,Utilities,Utilities,Multiline Utilities,Multiline Utilities
+STE.N,STERIS PLC,Steris plc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+STT.N,ST STREET CP,State Street Corp,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management & Fund Operators (NEC)
+STX.OQ,SEAGATE TECH,Seagate Technology PLC,Technology,Technology Equipment,"Computers, Phones & Household Electronics",Computer Hardware (NEC)
+STZ.N,CONSTELLATION A,Constellation Brands Inc,Consumer Non-Cyclicals,Food & Beverages,Beverages,Wineries
+SWK.N,STANLY BLK&DCKR,Stanley Black & Decker Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Industrial Machinery & Equipment (NEC)
+SWKS.OQ,SKYWORKS SOLUTNS,Skyworks Solutions Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Integrated Circuits
+SYF.N,SYNCHRONY FIN,Synchrony Financial,Financials,Banking & Investment Services,Banking Services,Consumer Lending (NEC)
+SYK.N,STRYKER,Stryker Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Medical Devices & Implants
+SYY.N,SYSCO CORP,Sysco Corp,Consumer Non-Cyclicals,Food & Drug Retailing,Food & Drug Retailing,Food Retail & Distribution (NEC)
+T.N,AT&T,AT&T Inc,Telecommunications Services,Telecommunications Services,Telecommunications Services,Wireless Telecommunications Services (NEC)
+TAP.N,MLSN COORS BEV B,Molson Coors Beverage Co,Consumer Non-Cyclicals,Food & Beverages,Beverages,Brewers (NEC)
+TDG.N,TRANSDIGM GROUP,TransDigm Group Inc,Industrials,Industrial Goods,Aerospace & Defense,Aircraft Parts Manufacturing
+TDY.N,TELEDYNE TECH,Teledyne Technologies Inc,Technology,Technology Equipment,Electronic Equipment & Parts,Electronic Equipment & Parts (NEC)
+TEL.N,TE CONNECTIVITY,TE Connectivity Ltd,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electrical Components
+TFC.N,TRST FINANCL ORD,Truist Financial Corp,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+TFX.N,TELEFLEX INC,Teleflex Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Medical Supplies
+TGT.N,TARGET CORP,Target Corp,Consumer Cyclicals,Retailers,Diversified Retail,Discount Stores (NEC)
+TIF.N,TIFFANY & CO,Tiffany & Co,Consumer Cyclicals,Retailers,Specialty Retailers,Jewelry & Watch Retailers
+TJX.N,TJX CO INC,TJX Companies Inc,Consumer Cyclicals,Retailers,Diversified Retail,Discount Stores without Grocery
+TMO.N,THERMO FISHER SC,Thermo Fisher Scientific Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+TMUS.OQ,T MOBILE US IN,T-Mobile US Inc,Telecommunications Services,Telecommunications Services,Telecommunications Services,Wireless Telecommunications Services (NEC)
+TPR.N,TAPESTRY INC ORD,Tapestry Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Handbags & Luggage Retailers
+TROW.OQ,T ROWE PRICE GP,T. Rowe Price Group Inc,Financials,Banking & Investment Services,Investment Banking & Investment Services,Investment Management & Fund Operators (NEC)
+TRV.N,THE TRAVELERS CO,Travelers Companies Inc,Financials,Insurance,Insurance,Property & Casualty Insurance (NEC)
+TSCO.OQ,TRACTOR SUPPLY,Tractor Supply Co,Consumer Cyclicals,Retailers,Specialty Retailers,Miscellaneous Specialty Retailers (NEC)
+TSN.N,TYSON FOODS,Tyson Foods Inc,Consumer Non-Cyclicals,Food & Beverages,Food & Tobacco,Meat Processing
+TT.N,TRANE TCHNLG ORD,Trane Technologies PLC,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships","Heating, Ventilation & Air Conditioning Systems"
+TTWO.OQ,TAKE TWO,Take-Two Interactive Software Inc,Consumer Cyclicals,Cyclical Consumer Products,Leisure Products,Toys & Children's Products (NEC)
+TWTR.N,TWITTER INC,Twitter Inc,Technology,Software & IT Services,Software & IT Services,Social Media & Networking
+TXN.OQ,TEXAS INSTRUMENT,Texas Instruments Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+TXT.N,TEXTRON INC,Textron Inc,Industrials,Industrial Goods,Aerospace & Defense,Commercial Aircraft Manufacturing
+TYL.N,TYLER TECHNOL,Tyler Technologies Inc,Technology,Software & IT Services,Software & IT Services,Software (NEC)
+UA.N,UNDER ARMOUR C,Under Armour Inc,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Apparel & Accessories (NEC)
+UAA.N,UNDER ARMOUR A,Under Armour Inc,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Apparel & Accessories (NEC)
+UAL.OQ,UNITED AIRLNS HD,United Airlines Holdings Inc,Industrials,Transportation,Passenger Transportation Services,Airlines (NEC)
+UDR.N,UDR INC,UDR Inc,Financials,Real Estate,Residential & Commercial REITs,Residential REITs
+UHS.N,UNIV HEALTH SVC,Universal Health Services Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Healthcare Facilities & Services (NEC)
+ULTA.OQ,ULTA BEAUTY INC,Ulta Beauty Inc,Consumer Cyclicals,Retailers,Specialty Retailers,Personal Care Products Retailers
+UNH.N,UNITEDHEALTH GP,UnitedHealth Group Inc,Healthcare,Healthcare Services & Equipment,Healthcare Providers & Services,Managed Healthcare (NEC)
+UNM.N,UNUM GROUP,Unum Group,Financials,Insurance,Insurance,Life & Health Insurance (NEC)
+UNP.N,UNION PACIFIC CP,Union Pacific Corp,Industrials,Transportation,Freight & Logistics Services,Ground Freight & Logistics (NEC)
+UPS.N,UNITED PARCEL B,United Parcel Service Inc,Industrials,Transportation,Freight & Logistics Services,"Courier, Postal, Air Freight & Land-based Logistics (NEC)"
+URI.N,UNITED RENTAL,United Rentals Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Business Support Services (NEC)
+USB.N,US BANCORP,U.S. Bancorp,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+V.N,VISA INC,Visa Inc,Technology,Software & IT Services,Software & IT Services,Internet Security & Transactions Services
+VAR.N,VARIAN MEDICAL,Varian Medical Systems Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+VFC.N,VF CORP,VF Corp,Consumer Cyclicals,Cyclical Consumer Products,Textiles & Apparel,Apparel & Accessories (NEC)
+VIAC.OQ,VIACOMCBS B ORD,ViacomCBS Inc,Consumer Cyclicals,Cyclical Consumer Services,Media & Publishing,Broadcasting (NEC)
+VLO.N,VALERO ENERGY,Valero Energy Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Refining and Marketing (NEC)
+VMC.N,VULCAN MATRLS,Vulcan Materials Co,Basic Materials,Mineral Resources,Construction Materials,Construction Materials (NEC)
+VNO.N,VORNADO REALTY,Vornado Realty Trust,Financials,Real Estate,Residential & Commercial REITs,Commercial REITs (NEC)
+VRSK.OQ,VERISK ANLYTCS,Verisk Analytics Inc,Technology,Software & IT Services,Software & IT Services,Technology Consulting & Outsourcing Services
+VRSN.OQ,VERISIGN INC,Verisign Inc,Technology,Software & IT Services,Software & IT Services,IT Services & Consulting (NEC)
+VRTX.OQ,VERTEX PHARM,Vertex Pharmaceuticals Inc,Healthcare,Pharmaceuticals & Medical Research,Biotechnology & Medical Research,Bio Therapeutic Drugs
+VTR.N,VENTAS INC,Ventas Inc,Financials,Real Estate,Residential & Commercial REITs,Healthcare REITs
+VZ.N,VERIZON COMMS,Verizon Communications Inc,Telecommunications Services,Telecommunications Services,Telecommunications Services,Integrated Telecommunications Services (NEC)
+WAB.N,WABTEC,Westinghouse Air Brake Technologies Corp,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Locomotive Engines & Rolling Stock
+WAT.N,WATERS CORP,Waters Corp,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,Advanced Medical Equipment & Technology (NEC)
+WBA.OQ,WALGREEN BOOTS,Walgreens Boots Alliance Inc,Consumer Non-Cyclicals,Food & Drug Retailing,Food & Drug Retailing,Drug Retailers (NEC)
+WDC.OQ,WESTERN DGTL CRP,Western Digital Corp,Technology,Technology Equipment,"Computers, Phones & Household Electronics",Storage Devices
+WEC.N,WEC ENERGY GROUP,WEC Energy Group Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+WELL.N,WELLTOWER INC,Welltower Inc,Financials,Real Estate,Residential & Commercial REITs,Healthcare REITs
+WFC.N,WELLS FARGO & CO,Wells Fargo & Co,Financials,Banking & Investment Services,Banking Services,Banks (NEC)
+WHR.N,WHIRL POOL CORP,Whirlpool Corp,Consumer Cyclicals,Cyclical Consumer Products,Household Goods,Household Appliances
+WLTW.OQ,WLS TWR WTSN LTD,Willis Towers Watson PLC,Financials,Insurance,Insurance,Insurance Brokers
+WM.N,WASTE MANAGEMNT,Waste Management Inc,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Environmental Services & Equipment (NEC)
+WMB.N,WILLIAMS COMPS,Williams Companies Inc,Energy,Energy - Fossil Fuels,Oil & Gas Related Equipment and Services,Oil & Gas Transportation Services (NEC)
+WMT.N,WALMART INC,Walmart Inc,Consumer Non-Cyclicals,Food & Drug Retailing,Food & Drug Retailing,Supermarkets & Convenience Stores
+WRB.N,W R BERKLEY CP,W. R. Berkley Corp,Financials,Insurance,Insurance,Property & Casualty Insurance (NEC)
+WRK.N,WESTROCK COMPANY,Westrock Co,Basic Materials,Applied Resources,Containers & Packaging,Paper Packaging (NEC)
+WST.N,WEST PHARM SVCS,West Pharmaceutical Services Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+WU.N,WESTERN UNION,Western Union Co,Industrials,Industrial & Commercial Services,Professional & Commercial Services,Transaction & Payment Services
+WY.N,WEYERHAEUSER CO,Weyerhaeuser Co,Financials,Real Estate,Residential & Commercial REITs,Timber REITs
+WYNN.OQ,WYNN RESORTS,Wynn Resorts Ltd,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Casinos
+XEL.OQ,XCEL ENERGY INC,Xcel Energy Inc,Utilities,Utilities,Electric Utilities & IPPs,Electric Utilities (NEC)
+XLNX.OQ,XILINX INC,Xilinx Inc,Technology,Technology Equipment,Semiconductors & Semiconductor Equipment,Semiconductors (NEC)
+XOM.N,EXXON MOBIL,Exxon Mobil Corp,Energy,Energy - Fossil Fuels,Oil & Gas,Oil & Gas Refining and Marketing (NEC)
+XRAY.OQ,DENTSPLY SIRONA,DENTSPLY SIRONA Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+XRX.N,XEROX HOLDINGS,Xerox Holdings Corp,Technology,Technology Equipment,Office Equipment,Commercial Document Management
+XYL.N,XYLEM INC,Xylem Inc,Industrials,Industrial Goods,"Machinery, Tools, Heavy Vehicles, Trains & Ships",Pump & Pumping Equipment
+YUM.N,YUM! BRANDS INC,Yum! Brands Inc,Consumer Cyclicals,Cyclical Consumer Services,Hotels & Entertainment Services,Quick Service Restaurants
+ZBH.N,ZMMR BIOMT HLDS,Zimmer Biomet Holdings Inc,Healthcare,Healthcare Services & Equipment,Healthcare Equipment & Supplies,"Medical Equipment, Supplies & Distribution (NEC)"
+ZBRA.OQ,ZEBRA TECH,Zebra Technologies Corp,Technology,Technology Equipment,Electronic Equipment & Parts,Electronic Equipment & Parts (NEC)
+ZION.OQ,ZION BNCORPRT NA,Zions Bancorporation NA,Financials,Banking & Investment Services,Banking Services,Corporate Banks
+ZTS.N,ZOETIS INC,Zoetis Inc,Healthcare,Pharmaceuticals & Medical Research,Pharmaceuticals,Veterinary Drugs

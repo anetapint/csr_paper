@@ -1,0 +1,18 @@
+Sector,Res,Emis,Inno,Work,Hum,Comm,Prod,Mgmt,Shar,Csrs
+Automobiles & Auto Parts,1,1,1,1,0,0,1,1,1,0
+Basic Materials,1,0,1,1,0,0,0,0,1,0
+Consumer Non-Cyclicals,1,1,1,1,0,1,1,0,1,1
+Cyclical Consumer Products,1,1,1,1,0,0,1,1,1,0
+Cyclical Consumer Services,1,0,0,0,1,1,1,0,1,1
+Energy,1,1,1,1,0,0,0,1,1,0
+Financials,1,0,0,1,0,1,1,1,1,1
+Healthcare,1,1,1,0,1,1,1,1,1,1
+Industrial & Commercial Services,1,0,0,0,0,1,0,1,1,0
+Industrial Conglomerates,1,1,1,1,0,0,1,1,1,1
+Industrial Goods,1,1,1,1,0,0,1,1,1,0
+Retailers,1,0,0,0,1,1,1,0,1,1
+Software & IT Services,1,0,0,1,1,1,1,1,1,1
+Technology Equipment,1,1,1,1,0,0,1,0,1,0
+Telecommunications Services,1,0,0,0,0,1,1,1,1,1
+Transportation,0,1,1,0,0,0,1,0,1,0
+Utilities,1,1,1,1,0,1,1,0,1,1
