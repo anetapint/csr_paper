@@ -3,7 +3,7 @@
 
 # SPECIFY THE DATASET for which we calculate the primary and secondary score
 ###################################
-DATA_TO_USE <- "csr_data_old"
+DATA_TO_USE <- "csr_data_rnd_ind_avg"
 
 # Options (we need string):
 #"csr_data_full"
@@ -122,4 +122,4 @@ data_prim_sec <- data_prim_sec %>%
                    "Prod", "Mgmt", "Shar", "Csrs"))
 
 ### SAVE THE DATASET ###
-write.csv(data_prim_sec, paste0(DATA_TO_USE, ".csv"))
+write.csv(data_prim_sec, paste0("edited_data/", DATA_TO_USE, ".csv"))
