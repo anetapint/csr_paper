@@ -3,14 +3,12 @@
 
 # SPECIFY THE DATASET for which we calculate the primary and secondary score
 ###################################
-DATA_TO_USE <- "csr_data_rnd_ind_avg"
+DATA_TO_USE <- "csr_data_full_period"
 
 # Options (we need string):
-#"csr_data_full"
-#"csr_data_old"
-#"csr_data_rnd_zero"
-#"csr_data_rnd_ind_avg"
-#"csr_data_rnd_perc_rev"
+#"csr_data_full_period"
+#"csr_data_old_period"
+#"csr_data_rnd_adj"
 
 data_prim_sec <- get(DATA_TO_USE)
 ###################################

@@ -19,76 +19,17 @@ csr_data <- csr_data_joined %>%
 ### DATA CLEAN - PERIOD TILL 2016 AND FULL PERIOD ###
 
 # Remove rows with NAs - because of RnD we lose significant portion of data
-csr_data_old <- csr_data %>% 
+csr_data_old_period <- csr_data %>% 
   dplyr::filter(Year < 2017) %>%
   tidyr::drop_na()
 
-csr_data_full <- csr_data %>%
+csr_data_full_period <- csr_data %>%
   tidyr::drop_na()
 
 
 ### RESEARCH AND DEVELOPMENT DATA SOLUTION ###
 
-### In the full dataset, try to replace RnD with: ###
-
-## 1. Zeros ##
-csr_data_rnd_zero <- csr_data
-
-csr_data_rnd_zero$rnd[is.na(csr_data_rnd_zero$rnd)] <- 0
-
-# Adjust RDPS
-csr_data_rnd_zero <- csr_data_rnd_zero %>%
-  dplyr::mutate(rdps = rnd/shares_out)
-
-# Clean the data
-csr_data_rnd_zero <- csr_data_rnd_zero %>%
-  tidyr::drop_na()
-
-## 2. Industry Average ##
-csr_data_rnd_ind_avg <- csr_data
-
-
-
-
-
-# Join data with industry averages
-csr_data_rnd_ind_avg <- csr_data_rnd_ind_avg %>%
-  dplyr::left_join(industry_averages, by = "Sector")
-
-# Fill RnD NAs: if there are enough companies in given sector, then industry average,
-# otherwise 5% of revenue
-csr_data_rnd_ind_avg <- csr_data_rnd_ind_avg %>%
-  dplyr::mutate(rnd2 = ifelse(!is.na(rnd), 
-                             rnd,
-                             ifelse((Sector %in% company_counts_above_2),
-                                    rnd_avg,
-                                    (0.5 * revenue))))
-
-# Adjust RDPS
-csr_data_rnd_ind_avg <- csr_data_rnd_ind_avg %>%
-  dplyr::mutate(rdps = rnd2/shares_out)
-
-# Clean the data
-csr_data_rnd_ind_avg <- csr_data_rnd_ind_avg %>%
-  tidyr::drop_na()
-
-## 3. % of Revenue ##
-csr_data_rnd_perc_rev <- csr_data
-
-# When rnd is zero, use 0.5% of sales
-csr_data_rnd_perc_rev <- csr_data_rnd_perc_rev %>%
-  dplyr::mutate(rnd2 = ifelse(is.na(rnd), (0.005 * revenue), rnd))
-
-# Adjust RDPS
-csr_data_rnd_perc_rev <- csr_data_rnd_perc_rev %>%
-  dplyr::mutate(rdps = rnd2/shares_out)
-
-# Clean the data
-csr_data_rnd_perc_rev <- csr_data_rnd_perc_rev %>%
-  tidyr::drop_na()
-
-################################
-# Adjusted RnD dataset
+### In the full dataset, try to replace RnD with zeros/ industry averages/% of sales ###
 csr_data_rnd_adj <- csr_data
 
 # Calculate industry averages per sector
@@ -97,11 +38,11 @@ industry_averages <- csr_data %>%
   summarise(rnd_avg = mean(rnd, na.rm = TRUE))
 
 # Find how many companies stay in sector after NAs removal
-company_counts <- csr_data_full %>%
+company_counts <- csr_data_full_period %>%
   group_by(Sector) %>%
   summarise(count = length(unique(Company)))
 
-# Find sectors with more than 2 companies
+# Find sectors with more than 2 companies with RnD data
 company_counts_above_2 <- company_counts %>%
   filter(count > 2) %>%
   select(Sector) 
@@ -113,23 +54,33 @@ company_counts_above_2 <- company_counts_above_2[[1]]
 csr_data_rnd_adj <- csr_data_rnd_adj %>%
   dplyr::left_join(industry_averages, by = "Sector")
 
+# Intermediate column for industry average/perc revenue
+csr_data_rnd_adj <- csr_data_rnd_adj %>%
+  dplyr::mutate(rnd_ind_avg = ifelse((Sector %in% company_counts_above_2),
+                                     rnd_avg,
+                                     (0.005 * revenue)
+                                     )
+  )
+
 csr_data_rnd_adj <- csr_data_rnd_adj %>%
   dplyr::mutate(rnd_zero = ifelse(!is.na(rnd), rnd, 0
                                   ),
                 rnd_ind_avg = ifelse(!is.na(rnd), 
                                      rnd,
-                                     ifelse((Sector %in% company_counts_above_2),
-                                            rnd_avg,
-                                            "Hello"
-                                            )
-                                      ),
+                                     rnd_ind_avg
+                                    ),
                 rnd_perc_rev = ifelse(is.na(rnd), (0.005 * revenue), rnd)
                 )
 
-
 # Adjust RDPS
-csr_data_rnd_zero <- csr_data_rnd_zero %>%
-  dplyr::mutate(rdps = rnd/shares_out)
+csr_data_rnd_adj <- csr_data_rnd_adj %>%
+  dplyr::mutate(rdps_zero     = rnd_zero/shares_out,
+                rdps_ind_avg  = rnd_ind_avg/shares_out,
+                rdps_perc_rev = rnd_perc_rev/shares_out)
+
+# Clean the data --> if we clean now, we lose all rnd measures, sometimes unncessarily
+#csr_data_rnd_adj <- csr_data_rnd_adj %>%
+#  tidyr::drop_na()
 
 ### CLEAN INTERMEDIATE RESULTS ###
-rm(csr_data_joined, cols_names)
+#rm(csr_data_joined, cols_names)
