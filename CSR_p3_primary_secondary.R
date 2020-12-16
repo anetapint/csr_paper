@@ -3,7 +3,7 @@
 
 # SPECIFY THE DATASET for which we calculate the primary and secondary score
 ###################################
-DATA_TO_USE <- "csr_data_full_period"
+DATA_TO_USE <- "csr_data_rnd_adj"
 
 # Options (we need string):
 #"csr_data_full_period"
@@ -118,6 +118,23 @@ data_prim_sec <- data_prim_sec %>%
 data_prim_sec <- data_prim_sec %>%
   dplyr::select(-c("Res", "Emis", "Inno", "Work", "Hum", "Comm",
                    "Prod", "Mgmt", "Shar", "Csrs"))
+
+# Drop weight columns
+data_prim_sec <- data_prim_sec %>%
+  dplyr::select(-c("w_res", "w_emis", "w_inno", "w_work", "w_hum", "w_comm",
+                   "w_prod", "w_mgmt", "w_shar", "w_csrs"))
+
+# Drop individual score columns
+data_prim_sec <- data_prim_sec %>%
+  dplyr::select(-c("res_use_score", "emis_score", "env_inno_score", "workf_score",
+                   "hum_r_score", "comm_score", "prod_score", "mgmt_score", 
+                   "shar_score", "csrs_score"))
+
+# Rename overall score columns
+data_prim_sec <- data_prim_sec %>%
+  dplyr::rename(esg_score = ESG.Score, 
+                esg_comb_score = ESG.Combined.Score,
+                esgc_score = ESG.Controversies.Score)
 
 ### SAVE THE DATASET ###
 write.csv(data_prim_sec, paste0("edited_data/", DATA_TO_USE, ".csv"))

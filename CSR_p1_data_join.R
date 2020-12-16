@@ -1,6 +1,7 @@
 library(tidyr)
 library(dplyr)
 library(lubridate)
+library(hablar)
 
 
 ### DATA LOAD ###
@@ -81,10 +82,10 @@ financials <- financials %>%
 esg_scores <- esg_scores %>% 
   mutate(Year = lubridate::year(esg_scores[, "Date"]))
 
-# Sometimes we get ESG score for previous year only in January
+# Sometimes we get ESG score for previous year only in January, February, March, or April
 # If this happens, move this score to the previous year
 esg_scores <- esg_scores %>%
-  mutate(Date = lubridate::as_date(ifelse(lubridate::month(Date) == 1,
+  mutate(Date = lubridate::as_date(ifelse(lubridate::month(Date) %in% c(1, 2, 3, 4),
                                           as.Date(paste0("12/31/", as.character(Year - 1)), format = "%m/%d/%Y"),
                                           Date
                                           )
@@ -95,6 +96,13 @@ esg_scores <- esg_scores %>%
 esg_scores <- esg_scores %>% 
   mutate(Year = lubridate::year(esg_scores[, "Date"]))
 
+# Check duplicates in esg scores
+esg_duplicates <- esg_scores %>% 
+  hablar::find_duplicates(Company, Date) %>%
+  dplyr::select(Company, Date, everything())
+
+# --> we can see that we want just the first row from duplicates in our esg data
+esg_scores <- setdiff(esg_scores, esg_duplicates[2:4, ])
 
 # Join
 fin_esg <- financials %>%
@@ -102,12 +110,19 @@ fin_esg <- financials %>%
   dplyr::mutate(Date = Date.x) %>%
   dplyr::select(-c("Date.x", "Date.y"))
 
+# Check duplicates in fin_esg
+fin_esg_duplicates <- fin_esg %>% 
+  hablar::find_duplicates(Company, Date) %>%
+  dplyr::select(Company, Date, everything())
+
+# Drop all we had in duplicates
+fin_esg <- fin_esg %>% anti_join(fin_esg_duplicates)
 
 ## 2. Financials & ESG Scores with Prices ##
 
 # We will match based on quarter/year - add quarter/year column
 fin_esg <- fin_esg %>% 
-  mutate(Quarter_year = lubridate::quarter(fin_esg[, "Date"], with_year = TRUE))
+  mutate(Quarter_year = lubridate::quarter(as.POSIXlt(fin_esg[, "Date"]), with_year = TRUE))
 
 prices <- prices %>% 
   mutate(Quarter_year = lubridate::quarter(prices[, "Date"], with_year = TRUE))
@@ -118,10 +133,15 @@ fin_esg_price <- fin_esg %>%
   dplyr::mutate(Date = Date.x) %>%
   dplyr::select(-c("Date.x", "Date.y"))
 
+# Check duplicates in fin_esg_price
+fin_esg_price_duplicates <- fin_esg_price %>% 
+  hablar::find_duplicates(Company, Date) %>%
+  dplyr::select(Company, Date, everything())
+# --> OK
 
 ## 3. Financials & ESG Scores & Prices with Sector -> full CSR data ##
 csr_data_joined <- fin_esg_price %>%
   dplyr::left_join(sectors, by = c("Company"))
 
 ### CLEAN INTERMEDIATE RESULTS ###
-rm(fin_esg, fin_esg_price, company_cols)
+#rm(fin_esg, fin_esg_price, company_cols)
