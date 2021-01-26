@@ -10,81 +10,54 @@ output: html_document
 ##### Notes
 
 * Results are shown with robust standard errors \
-* Size measured as log(assets) only for now
+* Size measured as log(assets) only 
 
 ---
 
 # 1. Models with total CSR score
 
-## a) Model for the whole period, RND not adjusted
+
+## a) Missing RND equal to zero 
 
 
 ```{r echo = FALSE}
-all_results_overall_csr[[1]]
+all_results[[1]]
 ```
 
-## b) Model for the old period (till 2016), RND not adjusted
+## b) Missing RND equal to industry average or percentage of revenues
 
 
 ```{r echo = FALSE}
-all_results_overall_csr[[2]]
+all_results[[2]]
 ```
 
-## c) Model for the full period, missing RND equal to zero 
+## e) Missing RND equal to percentage of revenues
 
 
 ```{r echo = FALSE}
-all_results_overall_csr[[3]]
-```
-
-## d) Model for the full period, missing RND equal to industry average or percentage of revenues
-
-
-```{r echo = FALSE}
-all_results_overall_csr[[4]]
-```
-
-## e) Model for the full period, missing RND equal to percentage of revenues
-
-
-```{r echo = FALSE}
-all_results_overall_csr[[5]]
+all_results[[3]]
 ```
 
 
 # 2. Models with primary and secondary CSR score
 
-## a) Model for the whole period, RND not adjusted
+## a) Missing RND equal to zero 
 
 
 ```{r echo = FALSE}
-all_results_prim_sec_csr[[1]]
+all_results[[4]]
 ```
 
-## b) Model for the old period (till 2016), RND not adjusted
+## b) Missing RND equal to industry average or percentage of revenues
 
 
 ```{r echo = FALSE}
-all_results_prim_sec_csr[[2]]
+all_results[[5]]
 ```
 
-## c) Model for the full period, missing RND equal to zero 
+## c) Missing RND equal to percentage of revenues
 
 
 ```{r echo = FALSE}
-all_results_prim_sec_csr[[3]]
-```
-
-## d) Model for the full period, missing RND equal to industry average or percentage of revenues
-
-
-```{r echo = FALSE}
-all_results_prim_sec_csr[[4]]
-```
-
-## e) Model for the full period, missing RND equal to percentage of revenues
-
-
-```{r echo = FALSE}
-all_results_prim_sec_csr[[5]]
+all_results[[6]]
 ```
