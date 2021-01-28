@@ -157,6 +157,28 @@ dataJoin <- function(PERIOD_ADJUST = "no_period_adjust") {
     fin_esg_price <- fin_esg_price %>%
       dplyr::filter(lubridate::month(Date) %in% c(1, 12))
     
+  } else if (PERIOD_ADJUST == "prices_ahead_quarter_year") {
+    
+    # Create lead price
+    fin_esg_price <- plyr::ddply( 
+      fin_esg_price, .(Company), transform,
+      # This assumes that the data is sorted
+      Price = dplyr::lead(Price, 1) 
+    )
+    
+  } else if (PERIOD_ADJUST == "yearly_data_prices_ahead_quarter_year") {
+    
+    # Create lead price
+    fin_esg_price <- plyr::ddply( 
+      fin_esg_price, .(Company), transform,
+      # This assumes that the data is sorted
+      Price = dplyr::lead(Price, 1) 
+    )
+    
+    # Keep just year-end data
+    fin_esg_price <- fin_esg_price %>%
+      dplyr::filter(lubridate::month(Date) %in% c(1, 12))
+    
   }
   
   
