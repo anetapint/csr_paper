@@ -19,7 +19,7 @@ options(scipen = 999)
 # SET-UP =======================================================================
 
 # Specify which period shift should be used
-PERIOD_ADJUST <- "prices_ahead_quarter_year" 
+PERIOD_ADJUST <- "yearly_data_prices_ahead_quarter_year"
 # Options:
 # "no_period_adjust" , "prices_ahead_half_year", "yearly_data_prices_ahead_half_year",
 # "prices_ahead_quarter_year", "yearly_data_prices_ahead_quarter_year"
@@ -39,7 +39,7 @@ SECTOR_MATRIX <- "original_matrix"
 
 # Specify if we want to use time fixed effects
 TIME_DUMMIES <- "no_time_dummies"
-# "time_dummies", "no_time_dummies"
+# "time_dummies", "no_time_dummies", "trend_var"
 
 # RUN ANALYSIS =================================================================
 
@@ -67,7 +67,7 @@ rmarkdown::render(
   input = "Models_results.rmd",
   output_file =
     paste(
-      "Results", PERIOD_ADJUST, SECTOR_MATRIX, TIME_DUMMIES,
+      "Results_new", PERIOD_ADJUST, SECTOR_MATRIX, TIME_DUMMIES,
       paste0(Sys.Date(), ".html"),
       sep = "_"
     )

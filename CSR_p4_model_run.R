@@ -1,11 +1,24 @@
 runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
 
-  csr_data_with_prim_sec[, "Year"] <- as.factor(csr_data_with_prim_sec[, "Year"])
+  if (TIME_DUMMIES == "time_dummies") {
+    
+    # Convert year to factor
+    csr_data_with_prim_sec[, "Year"] <- as.factor(csr_data_with_prim_sec[, "Year"])
+    
+    # Create year dummies
+    data_rnd_adj <- 
+      data.frame(csr_data_with_prim_sec[ , ! colnames(csr_data_with_prim_sec) %in% "Year"],   
+                 model.matrix( ~ Year - 1, csr_data_with_prim_sec))
+    
+  } else {
+    
+    data_rnd_adj <- csr_data_with_prim_sec
   
-  # Create year dummies
-  data_rnd_adj <- 
-    data.frame(csr_data_with_prim_sec[ , ! colnames(csr_data_with_prim_sec) %in% "Year"],   
-               model.matrix( ~ Year - 1, csr_data_with_prim_sec))
+    # Convert year to numeric
+    data_rnd_adj[, "Year"] <- as.numeric(data_rnd_adj[, "Year"])
+    
+  }
+  
   
   ## MODELS WITH TOTAL CSR SCORE =================================================
   
@@ -15,17 +28,22 @@ runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
   if (TIME_DUMMIES == "time_dummies") {
     
     formula_rnd_zero <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(esgc_score, 1) +
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score +
                             rdps_zero + Year2008 + Year2009 + Year2010 +
                             Year2011 + Year2012 + Year2013+ Year2014 + Year2015 +           
                             Year2016 + Year2017 + Year2018 + Year2019 + Year2020)
     
+  } else if (TIME_DUMMIES == "trend_var") {
+    
+    formula_rnd_zero <- 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score + rdps_zero + Year)
+    
   } else {
     
     formula_rnd_zero <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(esgc_score, 1) + rdps_zero)
-  }
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score + rdps_zero)
   
+  }
   
   model_rnd_zero_full_csr <- plm(formula_rnd_zero, data = data_rnd_adj, 
                         index = c("Company", "Date"), model = "within")
@@ -45,15 +63,20 @@ runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
   if (TIME_DUMMIES == "time_dummies") {
     
     formula_rnd_ind_avg <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(esgc_score, 1) 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score 
                  + rdps_ind_avg + Year2007 + Year2008 + Year2009 + Year2010 +
                    Year2011 + Year2012 + Year2013+ Year2014 + Year2015 +           
                    Year2016 + Year2017 + Year2018 + Year2019 + Year2020)
     
+  } else if (TIME_DUMMIES == "trend_var") {
+    
+    formula_rnd_ind_avg <- 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score + rdps_ind_avg + Year)
+    
   } else {
     
     formula_rnd_ind_avg <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(esgc_score, 1) + rdps_ind_avg)
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score + rdps_ind_avg)
   }
 
   model_rnd_ind_avg_full_csr <- plm(formula_rnd_ind_avg, data = data_rnd_adj, 
@@ -74,15 +97,20 @@ runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
   if (TIME_DUMMIES == "time_dummies") {
     
     formula_rnd_perc_rev <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(esgc_score, 1) 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score 
                  + rdps_perc_rev + Year2007 + Year2008 + Year2009 + Year2010 +
                    Year2011 + Year2012 + Year2013+ Year2014 + Year2015 +           
                    Year2016 + Year2017 + Year2018 + Year2019 + Year2020)
     
+  } else if (TIME_DUMMIES == "trend_var") {
+    
+    formula_rnd_perc_rev <- 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score + rdps_perc_rev + Year)
+    
   } else {
     
     formula_rnd_perc_rev <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(esgc_score, 1) + rdps_perc_rev)
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + esgc_score + rdps_perc_rev)
   }
 
   model_rnd_perc_rev_full_csr <- plm(formula_rnd_perc_rev, data = data_rnd_adj, 
@@ -106,18 +134,23 @@ runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
   if (TIME_DUMMIES == "time_dummies") {
     
     formula_rnd_zero <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(primary_csr_score, 1) + 
-                              dplyr::lag(secondary_csr_score, 1) + rdps_zero + 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                              secondary_csr_score + rdps_zero + 
                               Year2008 + Year2009 + Year2010 + Year2011 + Year2012 + 
                               Year2013 + Year2014 + Year2015 + Year2016 + Year2017 + 
                               Year2018 + Year2019 + Year2020)
     
+  } else if (TIME_DUMMIES == "trend_var") {
+    
+    formula_rnd_zero <- 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                              secondary_csr_score + rdps_zero + Year)
+    
   } else {
     
     formula_rnd_zero <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(primary_csr_score, 1) + 
-                              dplyr::lag(secondary_csr_score, 1) + rdps_zero)
-    
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                   secondary_csr_score + rdps_zero)
   }
   
   model_rnd_zero <- plm(formula_rnd_zero, data = data_rnd_adj, 
@@ -138,18 +171,24 @@ runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
   if (TIME_DUMMIES == "time_dummies") {
     
     formula_rnd_ind_avg <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(primary_csr_score, 1) + 
-                   dplyr::lag(secondary_csr_score, 1) + rdps_ind_avg + 
-                   Year2008 + Year2009 + Year2010 + Year2011 + Year2012 + 
-                   Year2013 + Year2014 + Year2015 + Year2016 + Year2017 + 
-                   Year2018 + Year2019 + Year2020)
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                             secondary_csr_score + rdps_ind_avg + 
+                             Year2008 + Year2009 + Year2010 + Year2011 + Year2012 + 
+                             Year2013 + Year2014 + Year2015 + Year2016 + Year2017 + 
+                             Year2018 + Year2019 + Year2020)
     
-  } else {
+  } else if (TIME_DUMMIES == "trend_var") {
       
       formula_rnd_ind_avg <- 
-        as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(primary_csr_score, 1) + 
-                     dplyr::lag(secondary_csr_score, 1) + rdps_ind_avg)
+        as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                                secondary_csr_score + rdps_ind_avg + Year)
       
+  } else {
+    
+    formula_rnd_ind_avg <- 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                   secondary_csr_score + rdps_ind_avg)
+    
   }
   
   model_rnd_ind_avg <- plm(formula_rnd_ind_avg, data = data_rnd_adj, 
@@ -170,18 +209,23 @@ runModels <- function(csr_data_with_prim_sec, TIME_DUMMIES) {
   if (TIME_DUMMIES == "time_dummies") {
     
     formula_rnd_perc_rev <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(primary_csr_score, 1) + 
-                   dplyr::lag(secondary_csr_score, 1) + rdps_perc_rev + Year2007 + 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                   secondary_csr_score + rdps_perc_rev + Year2007 + 
                    Year2008 + Year2009 + Year2010 + Year2011 + Year2012 + 
                    Year2013 + Year2014 + Year2015 + Year2016 + Year2017 + 
                    Year2018 + Year2019 + Year2020)
     
+  } else if (TIME_DUMMIES == "trend_var") {
+    
+    formula_rnd_perc_rev <- 
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                              secondary_csr_score + rdps_perc_rev + Year)
+    
   } else {
     
     formula_rnd_perc_rev <- 
-      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + dplyr::lag(primary_csr_score, 1) + 
-                   dplyr::lag(secondary_csr_score, 1) + rdps_perc_rev)
-    
+      as.formula(log(Price) ~ nips + bps + ltda + log(assets) + primary_csr_score + 
+                   secondary_csr_score + rdps_perc_rev)
   }
   
   model_rnd_perc_rev <- plm(formula_rnd_perc_rev, data = data_rnd_adj, 
