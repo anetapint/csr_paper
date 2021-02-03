@@ -62,7 +62,7 @@ dataJoin <- function(PERIOD_ADJUST = "no_period_adjust") {
                                                buss_sector
                                               )
                  ) %>%
-    dplyr::select(c("Company", "Sector"))
+    dplyr::select(c("Company", "Sector", "econ_sector"))
     
   
   

@@ -4,8 +4,8 @@ dataPrep <- function(csr_data_joined) {
   
   # Convert to numeric
   cols_names <- setdiff(colnames(csr_data_joined), c("Date", "Price", "Company", 
-                                                     "Sector", "Year", 
-                                                     "Quarter_year"))
+                                                     "Sector", "econ_sector", 
+                                                     "Year", "Quarter_year"))
   
   csr_data_joined[cols_names] <- sapply(csr_data_joined[cols_names], as.numeric)
   

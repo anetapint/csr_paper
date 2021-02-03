@@ -34,7 +34,7 @@ DATA_TO_USE <- "csr_data_rnd_adj"
 # --> model run wont work with other data than rnd_adj for now, can be added later
 
 # Specify which ESG matrix we want to use
-SECTOR_MATRIX <- "original_matrix"
+SECTOR_MATRIX <- "materiality_matrix"
 # "original_matrix", "materiality_matrix", "random_matrix"
 
 # Specify if we want to use time fixed effects
