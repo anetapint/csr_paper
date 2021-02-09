@@ -1,4 +1,4 @@
-primSec <- function(data_prim_sec, SECTOR_MATRIX) {
+primSec <- function(data_prim_sec, SECTOR_MATRIX, SET_SEED = 200) {
   
   ### DATA LOAD AND PREP ###
   
@@ -14,16 +14,16 @@ primSec <- function(data_prim_sec, SECTOR_MATRIX) {
   } else if (SECTOR_MATRIX == "random_matrix") {
     
     # Load original matrix
-    sectors_vs_csr_orig = read.csv("SectorVsCSR.csv", header = TRUE, stringsAsFactors = FALSE)
+    sectors_vs_csr_orig = read.csv("SectorVsCSR_materiality.csv", header = TRUE, stringsAsFactors = FALSE)
     
     # Set random seed
-    set.seed(2021)
+    set.seed(SET_SEED)
     
     # Create dataframe with randomly generated 0s and 1s
-    sectors_vs_csr_random <- data.frame(replicate(10, sample(0:1, 17, rep = TRUE)))
+    sectors_vs_csr_random <- data.frame(replicate(10, sample(0:1, 18, rep = TRUE)))
     
     # Name the columns of random dataframe as in original one
-    colnames(sectors_vs_csr_random) <- colnames(sectors_vs_csr)[2:11]
+    colnames(sectors_vs_csr_random) <- colnames(sectors_vs_csr_orig)[2:11]
     
     # Add sector names
     sectors_vs_csr <- cbind(sectors_vs_csr_orig[1], sectors_vs_csr_random)
