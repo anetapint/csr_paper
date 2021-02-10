@@ -25,6 +25,22 @@ model_rnd_zero_robust_full_csr
 
 stargazer(model_rnd_zero_robust_full_csr)
 
+### Testing ###
+
+# RE model
+model_rnd_zero_full_csr_RE <- plm(formula_rnd_zero, data = data_rnd_adj, 
+                         index = c("Company", "Date"), model = "random")
+
+
+# Hausman test
+phtest(model_rnd_zero_full_csr, model_rnd_zero_full_csr_RE)
+
+# Testing for heteroskedasticity
+bptest(formula_rnd_zero, data = data_rnd_adj, studentize = F)
+
+# Testing serial correlation - Wooldridge test
+pwartest(model_rnd_zero_full_csr)
+
 
 ## b) missing R&D equal to industry average or % of revenues =================
 
@@ -50,6 +66,22 @@ model_rnd_ind_avg_robust_full_csr
 
 stargazer(model_rnd_ind_avg_robust_full_csr)
 
+### Testing ###
+
+# RE model
+model_rnd_ind_avg_full_csr_RE <- plm(formula_rnd_ind_avg, data = data_rnd_adj, 
+                                        index = c("Company", "Date"), model = "random")
+
+
+# Hausman test
+phtest(model_rnd_ind_avg_full_csr, model_rnd_ind_avg_full_csr_RE)
+
+# Testing for heteroskedasticity
+bptest(formula_rnd_ind_avg, data = data_rnd_adj, studentize = F)
+
+# Testing serial correlation - Wooldridge test
+pwartest(model_rnd_ind_avg_full_csr)
+
 
 ## c) missing R&D equal to % of revenues =====================================
 
@@ -73,6 +105,26 @@ model_rnd_perc_rev_robust_full_csr <- coeftest(model_rnd_perc_rev_full_csr,
 model_rnd_perc_rev_robust_full_csr
 
 stargazer(model_rnd_perc_rev_robust_full_csr)
+
+
+### Testing ###
+
+# RE model
+model_rnd_perc_rev_full_csr_RE <- plm(formula_rnd_perc_rev, data = data_rnd_adj, 
+                                     index = c("Company", "Date"), model = "random")
+
+
+# Hausman test
+phtest(model_rnd_perc_rev_full_csr_RE, model_rnd_perc_rev_full_csr)
+
+# Testing for heteroskedasticity
+bptest(formula_rnd_perc_rev, data = data_rnd_adj, studentize = F)
+
+# Testing serial correlation - Wooldridge test
+pwartest(model_rnd_perc_rev_full_csr)
+
+
+
 
 ## MODELS WITH PRIMARY vs. SECONDARY CSR SCORE =================================
 
@@ -105,6 +157,25 @@ model_rnd_zero_pooled <- plm(formula_rnd_zero, data = data_rnd_adj,
 
 vif(model_rnd_zero_pooled)
 
+
+### Testing ###
+
+# RE model
+model_rnd_zero_RE <- plm(formula_rnd_zero, data = data_rnd_adj, 
+                                  index = c("Company", "Date"), model = "random")
+
+
+# Hausman test
+phtest(model_rnd_zero, model_rnd_zero_RE)
+
+# Testing for heteroskedasticity
+bptest(formula_rnd_zero, data = data_rnd_adj, studentize = F)
+
+# Testing serial correlation - Wooldridge test
+pwartest(model_rnd_zero)
+
+
+
 ## b) missing R&D equal to industry average or % of revenues =================
 
 # Specify formula
@@ -135,6 +206,25 @@ model_rnd_ind_avg_pooled <- plm(formula_rnd_ind_avg, data = data_rnd_adj,
 
 vif(model_rnd_ind_avg_pooled)
 
+### Testing ###
+
+# RE model
+model_rnd_ind_avg_RE <- plm(formula_rnd_ind_avg, data = data_rnd_adj, 
+                                     index = c("Company", "Date"), model = "random")
+
+
+# Hausman test
+phtest(model_rnd_ind_avg, model_rnd_ind_avg_RE)
+
+# Testing for heteroskedasticity
+bptest(formula_rnd_ind_avg, data = data_rnd_adj, studentize = F)
+
+# Testing serial correlation - Wooldridge test
+pwartest(model_rnd_ind_avg)
+
+
+
+
 ## c) missing R&D equal to % of revenues =====================================
 
 # Specify formula
@@ -164,3 +254,19 @@ model_rnd_perc_rev_pooled <- plm(formula_rnd_perc_rev, data = data_rnd_adj,
                           index = c("Company", "Date"), model = "pooling")
 
 vif(model_rnd_perc_rev_pooled)
+
+### Testing ###
+
+# RE model
+model_rnd_perc_rev_RE <- plm(formula_rnd_perc_rev, data = data_rnd_adj, 
+                                      index = c("Company", "Date"), model = "random")
+
+
+# Hausman test
+phtest(model_rnd_perc_rev_RE, model_rnd_perc_rev)
+
+# Testing for heteroskedasticity
+bptest(formula_rnd_perc_rev, data = data_rnd_adj, studentize = F)
+
+# Testing serial correlation - Wooldridge test
+pwartest(model_rnd_perc_rev)

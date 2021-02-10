@@ -22,7 +22,7 @@ options(scipen = 999)
 # SET-UP =======================================================================
 
 # Specify which period shift should be used
-PERIOD_ADJUST <- "yearly_data_no_period_adjust"
+PERIOD_ADJUST <- "yearly_data_prices_ahead_half_year"
 # Options:
 # "no_period_adjust", "yearly_data_no_period_adjust", "prices_ahead_half_year", 
 # "yearly_data_prices_ahead_half_year", "prices_ahead_quarter_year",
@@ -63,12 +63,12 @@ csr_data_with_prim_sec <- primSec(data_prim_sec = prepared_data_selected,
 
 # Run models
 # all_results <- runModels(csr_data_with_prim_sec = csr_data_with_prim_sec,
-#                          TIME_DUMMIES = TIME_DUMMIES)
-
-
-## Report with results 
-
-# Render the markdown report
+#                           TIME_DUMMIES = TIME_DUMMIES)
+# 
+# 
+# ## Report with results 
+# 
+# # Render the markdown report
 # rmarkdown::render(
 #   input = "Models_results.rmd",
 #   output_file =

@@ -147,8 +147,8 @@ primSec <- function(data_prim_sec, SECTOR_MATRIX, SET_SEED = 200) {
   # Rename overall score columns
   data_prim_sec <- data_prim_sec %>%
     dplyr::rename(esg_score = ESG.Score, 
-                  esg_comb_score = ESG.Combined.Score,
-                  esgc_score = ESG.Controversies.Score)
+                  esg_contr_score = ESG.Controversies.Score,
+                  esgc_score = ESG.Combined.Score)
   
   return(data_prim_sec)
   ### SAVE THE DATASET ###
