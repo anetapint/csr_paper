@@ -22,10 +22,11 @@ options(scipen = 999)
 # SET-UP =======================================================================
 
 # Specify which period shift should be used
-PERIOD_ADJUST <- "yearly_data_prices_ahead_half_year"
+PERIOD_ADJUST <- "yearly_data_no_period_adjust"
 # Options:
-# "no_period_adjust" , "prices_ahead_half_year", "yearly_data_prices_ahead_half_year",
-# "prices_ahead_quarter_year", "yearly_data_prices_ahead_quarter_year"
+# "no_period_adjust", "yearly_data_no_period_adjust", "prices_ahead_half_year", 
+# "yearly_data_prices_ahead_half_year", "prices_ahead_quarter_year",
+#  "yearly_data_prices_ahead_quarter_year"
 
 # Specify the data we want to work with
 DATA_TO_USE <- "csr_data_rnd_adj"

@@ -179,6 +179,12 @@ dataJoin <- function(PERIOD_ADJUST = "no_period_adjust") {
     fin_esg_price <- fin_esg_price %>%
       dplyr::filter(lubridate::month(Date) %in% c(1, 12))
     
+  } else if (PERIOD_ADJUST == "yearly_data_no_period_adjust") {
+    
+    # Keep just year-end data
+    fin_esg_price <- fin_esg_price %>%
+      dplyr::filter(lubridate::month(Date) %in% c(1, 12))
+    
   }
   
   
