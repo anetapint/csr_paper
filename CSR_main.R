@@ -9,6 +9,7 @@ library(lmtest)
 library(corrplot)
 library(stargazer)
 library(car)
+library(psych)
 
 # Source files
 source("CSR_p1_data_join.R")

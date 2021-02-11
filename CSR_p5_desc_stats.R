@@ -32,19 +32,29 @@ COLUMNS_FOR_DESC_STATS <- c("Share price (USD)", "NIPS (USD)", "BVPS (USD)",
 # Columns we want for corrplot
 COLUMNS_FOR_CORR <- c("Log(Share price)", "NIPS (USD)", "BVPS (USD)", 
                             "LTDTA (%)", "Log(Assets)", 
-                            "RDPS (USD) - NAs equal zero",
-                            "RDPS (USD) - NAs as ind. avg",
-                            "RDPS (USD) - NAs as % sales",
+                            "RDPS (USD), NAs as 0",
+                            "RDPS (USD), NAs as ind. avg",
+                            "RDPS (USD), NAs as % sales",
                             "TRESGC Score (0-100)", "Strategic CSR (0-100)", 
                             "Non-Strategic CSR (0-100)") 
 
 # Get desc stats
 summary(DATA_FOR_DESC_STATS[COLUMNS_FOR_DESC_STATS])
 
+# Alternative desc stats
+psych::describe(DATA_FOR_DESC_STATS[COLUMNS_FOR_DESC_STATS])
+
+# Only standard deviation
+apply(DATA_FOR_DESC_STATS[COLUMNS_FOR_DESC_STATS], 2, sd, na.rm = TRUE)
+
 # Get just the columns for which we want the correlation plot
-model_data_no_nas <- na.omit(DATA_FOR_DESC_STATS[COLUMNS_FOR_DESC_STATS])
+model_data_no_nas <- na.omit(DATA_FOR_DESC_STATS[COLUMNS_FOR_CORR])
 
 # Plot correlations
 corrplot(cor(model_data_no_nas))
+
+# N companies
+length(unique(csr_data_with_prim_sec$Company))
+# 487
 
 
