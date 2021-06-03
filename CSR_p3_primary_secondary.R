@@ -37,16 +37,16 @@ primSec <- function(data_prim_sec, SECTOR_MATRIX, SET_SEED = 200) {
   # Add weights per each CSR category as new columns in the data
   length <- nrow(data_prim_sec) 
   
-  data_prim_sec$w_res  <- rep(0.11, length)
-  data_prim_sec$w_emis <- rep(0.12, length)
-  data_prim_sec$w_inno <- rep(0.11, length)
-  data_prim_sec$w_work <- rep(0.16, length)
-  data_prim_sec$w_hum  <- rep(0.045, length)
-  data_prim_sec$w_comm <- rep(0.08, length)
-  data_prim_sec$w_prod <- rep(0.07, length)
-  data_prim_sec$w_mgmt <- rep(0.19, length)
-  data_prim_sec$w_shar <- rep(0.07, length)
-  data_prim_sec$w_csrs <- rep(0.045, length)
+  data_prim_sec$w_res  <- rep(0.15, length)
+  data_prim_sec$w_emis <- rep(0.15, length)
+  data_prim_sec$w_inno <- rep(0.13, length)
+  data_prim_sec$w_work <- rep(0.13, length)
+  data_prim_sec$w_hum  <- rep(0.05, length)
+  data_prim_sec$w_comm <- rep(0.09, length)
+  data_prim_sec$w_prod <- rep(0.04, length)
+  data_prim_sec$w_mgmt <- rep(0.17, length)
+  data_prim_sec$w_shar <- rep(0.05, length)
+  data_prim_sec$w_csrs <- rep(0.03, length)
   
   ### PRIMARY CSR SCORE CALCULATION ###
   

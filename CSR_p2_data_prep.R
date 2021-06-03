@@ -31,7 +31,6 @@ dataPrep <- function(csr_data_joined) {
   csr_data_full_period <- csr_data %>%
     tidyr::drop_na()
   
-  
   ### RESEARCH AND DEVELOPMENT DATA SOLUTION ###
   
   ### In the full dataset, try to replace RnD with zeros/ industry averages/% of sales ###
@@ -83,6 +82,18 @@ dataPrep <- function(csr_data_joined) {
                   rdps_ind_avg  = rnd_ind_avg/shares_out,
                   rdps_perc_rev = rnd_perc_rev/shares_out)
   
+  ### REMOVE BVPS AND NIPS OUTLIERS FROM RND ADJUSTED DATA ###
+  
+  # Remove bvps and nips above 1000
+  csr_data_rnd_adj <- csr_data_rnd_adj %>%
+    dplyr::filter(is.na(bps)  | bps  < 1000) %>%
+    dplyr::filter(is.na(nips) | nips < 1000)
+  
+  # Remove negative revenues
+  csr_data_rnd_adj <- csr_data_rnd_adj %>%
+    dplyr::filter(is.na(revenue)| revenue > 0) 
+  
+  ## Output
   return(list(
     csr_data_old_period  = csr_data_old_period,
     csr_data_full_period = csr_data_full_period,

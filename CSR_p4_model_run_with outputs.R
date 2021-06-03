@@ -140,6 +140,25 @@ model_rnd_zero <- plm(formula_rnd_zero, data = data_rnd_adj,
 
 summary(model_rnd_zero)
 
+# Test the significance of CSR coefficients difference
+
+# Get regression estimates, variances, and covariance
+beta6_prim = summary(model_rnd_zero)$coefficients[5]
+beta7_sec = summary(model_rnd_zero)$coefficients[6]
+
+var_beta6_prim = vcov(model_rnd_zero)[5, 5]
+var_beta7_sec  = vcov(model_rnd_zero)[6, 6]
+cov_b6_b7 = vcov(model_rnd_zero)[5, 6]
+
+# Calculate standard error of the difference
+SE_b6_b7 = sqrt(var_beta6_prim + var_beta7_sec - 2 * cov_b6_b7)
+
+# t-statistics
+t_stats = (beta6_prim - beta7_sec)/SE_b6_b7
+
+# test H0: beta6_prim - beta7_sec <= 0
+pt(-t_stats, df=length(data_rnd_adj) - 1)
+
 # Run the model with robust SE
 model_rnd_zero_robust <- coeftest(model_rnd_zero, 
                                   vcov = vcovHC(model_rnd_zero, 
