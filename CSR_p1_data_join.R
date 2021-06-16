@@ -112,7 +112,8 @@ dataJoin <- function(PERIOD_ADJUST = "no_period_adjust") {
     dplyr::select(Company, Date, everything())
   
   # Drop all we had in duplicates
-  fin_esg <- fin_esg %>% dplyr::anti_join(fin_esg_duplicates)
+  fin_esg <- fin_esg %>% 
+    dplyr::anti_join(fin_esg_duplicates, by = c("Company", "Date"))
   
   ## 2. Financials & ESG Scores with Prices ##
   

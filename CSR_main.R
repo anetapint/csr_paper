@@ -42,13 +42,18 @@ SET_SEED <- 2021
 # Specify if we want to use time fixed effects
 TIME_DUMMIES <- "no_time_dummies"      # "time_dummies", "no_time_dummies", "trend_var"
 
+# Negative BVPS solution
+BVPS_solution <- "to_zero"
+# "to_zero", "do_nothing", "remove_neg"
+
 # RUN ANALYSIS =================================================================
 
 # Run data joining
 csr_data_joined <- dataJoin(PERIOD_ADJUST = PERIOD_ADJUST)
 
 # Run data preparation (returns list with three types of prepared data - full, old, with adjusted rnd)
-prepared_data <- dataPrep(csr_data_joined = csr_data_joined)
+prepared_data <- dataPrep(csr_data_joined = csr_data_joined,
+                          BVPS_solution = BVPS_solution)
 
 # Retrieve selected dataset from the list
 prepared_data_selected <- prepared_data[[DATA_TO_USE]]

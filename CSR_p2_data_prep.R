@@ -1,4 +1,4 @@
-dataPrep <- function(csr_data_joined) {
+dataPrep <- function(csr_data_joined, BVPS_solution) {
   
   ### VARIABLE CLASSES AND CALCULATED COLUMNS ###
   
@@ -82,7 +82,7 @@ dataPrep <- function(csr_data_joined) {
                   rdps_ind_avg  = rnd_ind_avg/shares_out,
                   rdps_perc_rev = rnd_perc_rev/shares_out)
   
-  ### REMOVE BVPS AND NIPS OUTLIERS FROM RND ADJUSTED DATA ###
+  ### REMOVE BVPS AND NIPS OUTLIERS FROM RND ADJUSTED DATA, SOLVE NEG. BVPS ###
   
   # Remove bvps and nips above 1000
   csr_data_rnd_adj <- csr_data_rnd_adj %>%
@@ -92,6 +92,21 @@ dataPrep <- function(csr_data_joined) {
   # Remove negative revenues
   csr_data_rnd_adj <- csr_data_rnd_adj %>%
     dplyr::filter(is.na(revenue)| revenue > 0) 
+  
+  # Solve negative BVPS
+  if (BVPS_solution == "to_zero") {
+    
+    # Set negative BVPS to zero
+    csr_data_rnd_adj <- csr_data_rnd_adj %>%
+      dplyr::mutate(bps = ifelse(bps < 0, 0, bps)) 
+    
+  } else if (BVPS_solution == "remove_neg") {
+    
+    # Remove negative BVPS 
+    csr_data_rnd_adj <- csr_data_rnd_adj %>%
+      dplyr::filter(is.na(bps) | bps >= 0) 
+    
+  }
   
   ## Output
   return(list(
